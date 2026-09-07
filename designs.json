@@ -319,17 +319,17 @@
     "presets": [
       {
         "title": "The garden scholar",
-        "film": null,
+        "film": "films/r3/four-seasons-kyoto-1.mp4",
         "poster": "previews/r3/four-seasons-kyoto-1-entrance.png"
       },
       {
         "title": "An afternoon of hospitality",
-        "film": null,
+        "film": "films/r3/four-seasons-kyoto-2.mp4",
         "poster": "previews/r3/four-seasons-kyoto-2-entrance.png"
       },
       {
         "title": "Music after the rain",
-        "film": null,
+        "film": "films/r3/four-seasons-kyoto-3.mp4",
         "poster": "previews/r3/four-seasons-kyoto-3-entrance.png"
       }
     ],

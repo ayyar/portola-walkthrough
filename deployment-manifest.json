@@ -1,7 +1,7 @@
 {
-  "sourceCommit": "6119bd4c8674f5469140fb76302ed14976260fb7",
-  "stagedAt": "2026-09-07T21:59:07.414Z",
-  "bytes": 657656734,
+  "sourceCommit": "e89b5b7317451c58b0945f3fff0224f39106b504",
+  "stagedAt": "2026-09-07T23:54:27.302Z",
+  "bytes": 794880581,
   "files": [
     "Architecture.html",
     "assets/index-BerOjXHV.js",
@@ -11,6 +11,9 @@
     "films/himeji-castle.mp4",
     "films/park-hyatt-kyoto.mp4",
     "films/patina-osaka.mp4",
+    "films/r3/four-seasons-kyoto-1.mp4",
+    "films/r3/four-seasons-kyoto-2.mp4",
+    "films/r3/four-seasons-kyoto-3.mp4",
     "index.html",
     "models/designs/four-seasons-kyoto.glb",
     "models/designs/himeji-castle.glb",
