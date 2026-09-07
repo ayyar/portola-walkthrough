@@ -1,0 +1,2567 @@
+{
+  "schema_version": "1.1",
+  "units": "metres",
+  "axes": "X plan-right, Y toward rear garden, Z up",
+  "address": "99 E Portola Avenue, Los Altos, CA 94022",
+  "calibration": {
+    "source": "floorplan.png",
+    "trace_canvas_px": [
+      1824,
+      1363
+    ],
+    "metres_per_trace_pixel": 0.01623934426229508,
+    "anchor": "Family room 19.06 provisionally interpreted as 19 ft 6 in",
+    "origin_trace_px": [
+      580,
+      1175
+    ]
+  },
+  "heights": {
+    "wall_m": 2.7432000000000003,
+    "tray_center_m": 3.048
+  },
+  "solar": {
+    "latitude": 37.394,
+    "longitude": -122.105,
+    "coordinate_status": "Approximate North Los Altos location; parcel geocode unverified",
+    "timezone": "America/Los_Angeles",
+    "north_angle_deg": -34,
+    "north_status": "Project north arrow traced from SD1; true north unverified",
+    "year": 2026,
+    "month": 9,
+    "day": 6,
+    "hour": 15,
+    "utc_offset": -7
+  },
+  "walls": [
+    {
+      "id": "Rear family facade",
+      "a": [
+        -7.047875409836065,
+        15.800881967213114
+      ],
+      "b": [
+        -0.9094032786885246,
+        15.800881967213114
+      ],
+      "height_m": 2.7432000000000003,
+      "thickness_m": 0.18,
+      "openings": [
+        {
+          "start_m": 0.7145311475409836,
+          "end_m": 4.384622950819672,
+          "sill_m": 0,
+          "head_m": 2.4384,
+          "type": "slider",
+          "id": "Family four-panel garden slider",
+          "panel_ratios": [
+            1,
+            1,
+            1,
+            1
+          ],
+          "operation": "sliding",
+          "references": [
+            "bare/66_backyard-a.jpg"
+          ],
+          "confidence": "medium: retained plan location; inferred dimensions",
+          "opening_key": "EX-00-00"
+        }
+      ],
+      "exterior_normal": [
+        0,
+        1
+      ]
+    },
+    {
+      "id": "Corridor rear facade",
+      "a": [
+        -0.9094032786885246,
+        15.800881967213114
+      ],
+      "b": [
+        0.9094032786885246,
+        15.800881967213114
+      ],
+      "height_m": 2.7432000000000003,
+      "thickness_m": 0.18,
+      "openings": [
+        {
+          "start_m": 0.19487213114754098,
+          "end_m": 1.6726524590163934,
+          "sill_m": 0.76,
+          "head_m": 2.44,
+          "type": "fixed",
+          "id": "Rear corridor FIXED garden window",
+          "panel_ratios": [
+            1
+          ],
+          "operation": "fixed",
+          "references": [
+            "bare/66_backyard-a.jpg"
+          ],
+          "confidence": "medium: retained plan location; inferred dimensions",
+          "opening_key": "EX-01-00"
+        }
+      ],
+      "exterior_normal": [
+        0,
+        1
+      ]
+    },
+    {
+      "id": "Guest bathroom west",
+      "a": [
+        0.9094032786885246,
+        18.05815081967213
+      ],
+      "b": [
+        0.9094032786885246,
+        15.800881967213114
+      ],
+      "height_m": 2.7432000000000003,
+      "thickness_m": 0.18,
+      "openings": [],
+      "exterior_normal": [
+        -1,
+        0
+      ]
+    },
+    {
+      "id": "Guest suite rear",
+      "a": [
+        0.9094032786885246,
+        18.05815081967213
+      ],
+      "b": [
+        6.641891803278688,
+        18.05815081967213
+      ],
+      "height_m": 2.7432000000000003,
+      "thickness_m": 0.18,
+      "openings": [
+        {
+          "id": "W-B4-BATH-REAR",
+          "start_m": 0.27606885245901636,
+          "end_m": 1.4777803278688524,
+          "sill_m": 1.87,
+          "head_m": 2.44,
+          "type": "window",
+          "panel_ratios": [
+            1
+          ],
+          "operation": "awning",
+          "exterior_finish": "EX | charcoal exterior window frames",
+          "interior_finish": "Paint | soft white trim",
+          "references": [
+            "bare/47_bathroom-4-a.jpg",
+            "bare/71_drone-c.jpg"
+          ],
+          "confidence": "high: arrangement; medium: photo-estimated dimensions",
+          "opening_key": "EX-03-00"
+        },
+        {
+          "id": "W-B4-REAR-1",
+          "start_m": 2.7444491803278686,
+          "end_m": 3.4752196721311472,
+          "sill_m": 0.65,
+          "head_m": 2.44,
+          "type": "window",
+          "panel_ratios": [
+            1
+          ],
+          "operation": "casement",
+          "exterior_finish": "EX | charcoal exterior window frames",
+          "interior_finish": "Paint | soft white trim",
+          "references": [
+            "bare/43_bedroom-4-a.jpg"
+          ],
+          "confidence": "high: arrangement; medium: photo-estimated dimensions",
+          "opening_key": "EX-03-01"
+        },
+        {
+          "id": "W-B4-REAR-2",
+          "start_m": 4.563255737704917,
+          "end_m": 5.326504918032787,
+          "sill_m": 0.65,
+          "head_m": 2.44,
+          "type": "window",
+          "panel_ratios": [
+            1
+          ],
+          "operation": "casement",
+          "exterior_finish": "EX | charcoal exterior window frames",
+          "interior_finish": "Paint | soft white trim",
+          "references": [
+            "bare/43_bedroom-4-a.jpg"
+          ],
+          "confidence": "high: arrangement; medium: photo-estimated dimensions",
+          "opening_key": "EX-03-02"
+        }
+      ],
+      "exterior_normal": [
+        0,
+        1
+      ]
+    },
+    {
+      "id": "Bedroom wing east",
+      "a": [
+        6.641891803278688,
+        18.05815081967213
+      ],
+      "b": [
+        6.641891803278688,
+        6.739327868852459
+      ],
+      "height_m": 2.7432000000000003,
+      "thickness_m": 0.18,
+      "openings": [
+        {
+          "id": "W-B4-SIDE-1",
+          "start_m": 0.3247868852459016,
+          "end_m": 1.0555573770491802,
+          "sill_m": 0.65,
+          "head_m": 2.44,
+          "type": "window",
+          "panel_ratios": [
+            1
+          ],
+          "operation": "casement",
+          "exterior_finish": "EX | charcoal exterior window frames",
+          "interior_finish": "Paint | soft white trim",
+          "references": [
+            "bare/43_bedroom-4-a.jpg"
+          ],
+          "confidence": "high: arrangement; medium: photo-estimated dimensions",
+          "opening_key": "EX-04-00"
+        },
+        {
+          "id": "W-B4-SIDE-2",
+          "start_m": 2.6957311475409833,
+          "end_m": 3.426501639344262,
+          "sill_m": 0.65,
+          "head_m": 2.44,
+          "type": "window",
+          "panel_ratios": [
+            1
+          ],
+          "operation": "casement",
+          "exterior_finish": "EX | charcoal exterior window frames",
+          "interior_finish": "Paint | soft white trim",
+          "references": [
+            "bare/43_bedroom-4-a.jpg"
+          ],
+          "confidence": "high: arrangement; medium: photo-estimated dimensions",
+          "opening_key": "EX-04-01"
+        },
+        {
+          "id": "W-B3-SIDE-1",
+          "start_m": 4.043596721311475,
+          "end_m": 4.774367213114754,
+          "sill_m": 0.65,
+          "head_m": 2.44,
+          "type": "window",
+          "panel_ratios": [
+            1
+          ],
+          "operation": "casement",
+          "exterior_finish": "EX | charcoal exterior window frames",
+          "interior_finish": "Paint | soft white trim",
+          "references": [
+            "bare/38_bedroom-3-a.jpg"
+          ],
+          "confidence": "high: arrangement; medium: photo-estimated dimensions",
+          "opening_key": "EX-04-02"
+        },
+        {
+          "id": "W-B3-SIDE-2",
+          "start_m": 6.447019672131147,
+          "end_m": 7.177790163934426,
+          "sill_m": 0.65,
+          "head_m": 2.44,
+          "type": "window",
+          "panel_ratios": [
+            1
+          ],
+          "operation": "casement",
+          "exterior_finish": "EX | charcoal exterior window frames",
+          "interior_finish": "Paint | soft white trim",
+          "references": [
+            "bare/38_bedroom-3-a.jpg"
+          ],
+          "confidence": "high: arrangement; medium: photo-estimated dimensions",
+          "opening_key": "EX-04-03"
+        },
+        {
+          "id": "W-B2-SIDE-1",
+          "start_m": 7.843603278688524,
+          "end_m": 8.574373770491803,
+          "sill_m": 0.65,
+          "head_m": 2.44,
+          "type": "window",
+          "panel_ratios": [
+            1
+          ],
+          "operation": "casement",
+          "exterior_finish": "EX | charcoal exterior window frames",
+          "interior_finish": "Paint | soft white trim",
+          "references": [
+            "bare/33_bedroom-2-a.jpg"
+          ],
+          "confidence": "high: arrangement; medium: photo-estimated dimensions",
+          "opening_key": "EX-04-04"
+        },
+        {
+          "id": "W-B2-SIDE-2",
+          "start_m": 10.29574426229508,
+          "end_m": 11.02651475409836,
+          "sill_m": 0.65,
+          "head_m": 2.44,
+          "type": "window",
+          "panel_ratios": [
+            1
+          ],
+          "operation": "casement",
+          "exterior_finish": "EX | charcoal exterior window frames",
+          "interior_finish": "Paint | soft white trim",
+          "references": [
+            "bare/33_bedroom-2-a.jpg"
+          ],
+          "confidence": "high: arrangement; medium: photo-estimated dimensions",
+          "opening_key": "EX-04-05"
+        }
+      ],
+      "exterior_normal": [
+        1,
+        0
+      ]
+    },
+    {
+      "id": "Primary north extension",
+      "a": [
+        6.641891803278688,
+        6.739327868852459
+      ],
+      "b": [
+        8.525655737704918,
+        6.739327868852459
+      ],
+      "height_m": 2.7432000000000003,
+      "thickness_m": 0.18,
+      "openings": [
+        {
+          "id": "W-PRIMARY-CORNER",
+          "start_m": 0.8282065573770491,
+          "end_m": 1.5264983606557376,
+          "sill_m": 0.65,
+          "head_m": 2.44,
+          "type": "window",
+          "panel_ratios": [
+            1
+          ],
+          "operation": "casement",
+          "exterior_finish": "EX | charcoal exterior window frames",
+          "interior_finish": "Paint | soft white trim",
+          "references": [
+            "staged/25_primary-bedroom-a.jpg"
+          ],
+          "confidence": "high: arrangement; medium: photo-estimated dimensions",
+          "opening_key": "EX-05-00"
+        }
+      ],
+      "exterior_normal": [
+        0,
+        1
+      ]
+    },
+    {
+      "id": "Primary east facade",
+      "a": [
+        8.525655737704918,
+        6.739327868852459
+      ],
+      "b": [
+        8.525655737704918,
+        -1.201711475409836
+      ],
+      "height_m": 2.7432000000000003,
+      "thickness_m": 0.18,
+      "openings": [
+        {
+          "id": "W-PRIMARY-SIDE-1",
+          "start_m": 0.38974426229508197,
+          "end_m": 1.0880360655737704,
+          "sill_m": 0.65,
+          "head_m": 2.44,
+          "type": "window",
+          "panel_ratios": [
+            1
+          ],
+          "operation": "casement",
+          "exterior_finish": "EX | charcoal exterior window frames",
+          "interior_finish": "Paint | soft white trim",
+          "references": [
+            "staged/25_primary-bedroom-a.jpg"
+          ],
+          "confidence": "high: arrangement; medium: photo-estimated dimensions",
+          "opening_key": "EX-06-00"
+        },
+        {
+          "id": "D-PRIMARY-SLIDER",
+          "start_m": 1.380344262295082,
+          "end_m": 3.264108196721311,
+          "sill_m": 0,
+          "head_m": 2.44,
+          "type": "slider",
+          "panel_ratios": [
+            1,
+            1
+          ],
+          "operation": "sliding",
+          "exterior_finish": "EX | charcoal exterior window frames",
+          "interior_finish": "Paint | soft white trim",
+          "references": [
+            "staged/25_primary-bedroom-a.jpg",
+            "staged/26_primary-bedroom-b.jpg"
+          ],
+          "confidence": "high: arrangement; medium: photo-estimated dimensions",
+          "opening_key": "EX-06-01"
+        },
+        {
+          "id": "W-PRIMARY-SIDE-2",
+          "start_m": 3.5239377049180325,
+          "end_m": 4.222229508196721,
+          "sill_m": 0.65,
+          "head_m": 2.44,
+          "type": "window",
+          "panel_ratios": [
+            1
+          ],
+          "operation": "casement",
+          "exterior_finish": "EX | charcoal exterior window frames",
+          "interior_finish": "Paint | soft white trim",
+          "references": [
+            "staged/26_primary-bedroom-b.jpg"
+          ],
+          "confidence": "high: arrangement; medium: photo-estimated dimensions",
+          "opening_key": "EX-06-02"
+        },
+        {
+          "id": "W-PRIMARY-BATH-SIDE",
+          "start_m": 4.611973770491803,
+          "end_m": 5.4564196721311475,
+          "sill_m": 1.87,
+          "head_m": 2.44,
+          "type": "window",
+          "panel_ratios": [
+            1
+          ],
+          "operation": "awning",
+          "exterior_finish": "EX | charcoal exterior window frames",
+          "interior_finish": "Paint | soft white trim",
+          "references": [
+            "bare/30_primary-bath-b.jpg"
+          ],
+          "confidence": "high: arrangement; medium: photo-estimated dimensions",
+          "opening_key": "EX-06-03"
+        }
+      ],
+      "exterior_normal": [
+        1,
+        0
+      ]
+    },
+    {
+      "id": "Primary bath front",
+      "a": [
+        5.01795737704918,
+        -1.201711475409836
+      ],
+      "b": [
+        8.525655737704918,
+        -1.201711475409836
+      ],
+      "height_m": 2.7432000000000003,
+      "thickness_m": 0.18,
+      "openings": [
+        {
+          "id": "W-PRIMARY-BATH-FRONT",
+          "start_m": 0.9581213114754098,
+          "end_m": 2.1598327868852456,
+          "sill_m": 1.87,
+          "head_m": 2.44,
+          "type": "window",
+          "panel_ratios": [
+            1
+          ],
+          "operation": "awning",
+          "exterior_finish": "EX | charcoal exterior window frames",
+          "interior_finish": "Paint | soft white trim",
+          "references": [
+            "bare/29_primary-bath-a.jpg",
+            "bare/69_drone-a.jpg"
+          ],
+          "confidence": "high: arrangement; medium: photo-estimated dimensions",
+          "opening_key": "EX-07-00"
+        }
+      ],
+      "exterior_normal": [
+        0,
+        -1
+      ]
+    },
+    {
+      "id": "Formal front return",
+      "a": [
+        5.01795737704918,
+        -1.201711475409836
+      ],
+      "b": [
+        5.01795737704918,
+        -1.9487213114754096
+      ],
+      "height_m": 2.7432000000000003,
+      "thickness_m": 0.18,
+      "openings": [],
+      "exterior_normal": [
+        1,
+        0
+      ]
+    },
+    {
+      "id": "Formal living front",
+      "a": [
+        1.201711475409836,
+        -1.9487213114754096
+      ],
+      "b": [
+        5.01795737704918,
+        -1.9487213114754096
+      ],
+      "height_m": 2.7432000000000003,
+      "thickness_m": 0.18,
+      "openings": [
+        {
+          "id": "W-FORMAL-FRONT",
+          "start_m": 0.9418819672131147,
+          "end_m": 2.9393213114754095,
+          "sill_m": 0.65,
+          "head_m": 2.44,
+          "type": "window",
+          "panel_ratios": [
+            1,
+            1,
+            1
+          ],
+          "operation": "casement / fixed / casement",
+          "exterior_finish": "EX | charcoal exterior window frames",
+          "interior_finish": "Paint | soft white trim",
+          "references": [
+            "bare/69_drone-a.jpg",
+            "staged/08_living-room-a.jpg"
+          ],
+          "confidence": "high: arrangement; medium: photo-estimated dimensions",
+          "opening_key": "EX-09-00"
+        }
+      ],
+      "exterior_normal": [
+        0,
+        -1
+      ]
+    },
+    {
+      "id": "Porch east return",
+      "a": [
+        1.201711475409836,
+        0.0
+      ],
+      "b": [
+        1.201711475409836,
+        -1.9487213114754096
+      ],
+      "height_m": 2.7432000000000003,
+      "thickness_m": 0.18,
+      "openings": [],
+      "exterior_normal": [
+        -1,
+        0
+      ]
+    },
+    {
+      "id": "Entry facade",
+      "a": [
+        -0.7794885245901639,
+        0.0
+      ],
+      "b": [
+        1.201711475409836,
+        0.0
+      ],
+      "height_m": 2.7432000000000003,
+      "thickness_m": 0.18,
+      "openings": [
+        {
+          "id": "D-ENTRY",
+          "start_m": 0.35,
+          "end_m": 1.38,
+          "sill_m": 0,
+          "head_m": 2.13,
+          "type": "door",
+          "panel_ratios": [
+            1
+          ],
+          "operation": "hinged",
+          "exterior_finish": "EX | charcoal exterior window frames",
+          "interior_finish": "Paint | soft white trim",
+          "references": [
+            "bare/69_drone-a.jpg"
+          ],
+          "confidence": "high: arrangement; medium: photo-estimated dimensions",
+          "opening_key": "EX-11-00"
+        },
+        {
+          "id": "W-ENTRY-SIDELIGHT",
+          "start_m": 1.43,
+          "end_m": 1.64,
+          "sill_m": 0.04,
+          "head_m": 2.13,
+          "type": "fixed",
+          "panel_ratios": [
+            1
+          ],
+          "operation": "fixed",
+          "exterior_finish": "EX | charcoal exterior window frames",
+          "interior_finish": "Paint | soft white trim",
+          "references": [
+            "bare/69_drone-a.jpg"
+          ],
+          "confidence": "high: arrangement; medium: photo-estimated dimensions",
+          "opening_key": "EX-11-01"
+        },
+        {
+          "id": "W-ENTRY-TRANSOM",
+          "start_m": 0.35,
+          "end_m": 1.64,
+          "sill_m": 2.24,
+          "head_m": 2.7,
+          "type": "fixed",
+          "panel_ratios": [
+            1
+          ],
+          "operation": "fixed",
+          "exterior_finish": "EX | charcoal exterior window frames",
+          "interior_finish": "Paint | soft white trim",
+          "references": [
+            "bare/69_drone-a.jpg"
+          ],
+          "confidence": "high: arrangement; medium: photo-estimated dimensions",
+          "opening_key": "EX-11-02"
+        }
+      ],
+      "exterior_normal": [
+        0,
+        -1
+      ]
+    },
+    {
+      "id": "Porch west return",
+      "a": [
+        -0.7794885245901639,
+        0.0
+      ],
+      "b": [
+        -0.7794885245901639,
+        -1.9487213114754096
+      ],
+      "height_m": 2.7432000000000003,
+      "thickness_m": 0.18,
+      "openings": [],
+      "exterior_normal": [
+        1,
+        0
+      ]
+    },
+    {
+      "id": "Dining front",
+      "a": [
+        -4.157272131147541,
+        -1.9487213114754096
+      ],
+      "b": [
+        -0.7794885245901639,
+        -1.9487213114754096
+      ],
+      "height_m": 2.7432000000000003,
+      "thickness_m": 0.18,
+      "openings": [
+        {
+          "id": "W-DINING-FRONT",
+          "start_m": 0.6982918032786884,
+          "end_m": 2.6307737704918033,
+          "sill_m": 0.65,
+          "head_m": 2.44,
+          "type": "window",
+          "panel_ratios": [
+            1,
+            1,
+            1
+          ],
+          "operation": "casement / fixed / casement",
+          "exterior_finish": "EX | charcoal exterior window frames",
+          "interior_finish": "Paint | soft white trim",
+          "references": [
+            "bare/69_drone-a.jpg",
+            "staged/08_living-room-a.jpg"
+          ],
+          "confidence": "high: arrangement; medium: photo-estimated dimensions",
+          "opening_key": "EX-13-00"
+        }
+      ],
+      "exterior_normal": [
+        0,
+        -1
+      ]
+    },
+    {
+      "id": "Dining west",
+      "a": [
+        -4.157272131147541,
+        5.099154098360655
+      ],
+      "b": [
+        -4.157272131147541,
+        -1.9487213114754096
+      ],
+      "height_m": 2.7432000000000003,
+      "thickness_m": 0.145,
+      "openings": [],
+      "exterior_normal": [
+        -1,
+        0
+      ]
+    },
+    {
+      "id": "Garage front",
+      "a": [
+        -7.859842622950819,
+        -1.201711475409836
+      ],
+      "b": [
+        -4.157272131147541,
+        -1.201711475409836
+      ],
+      "height_m": 2.7432000000000003,
+      "thickness_m": 0.18,
+      "openings": [
+        {
+          "start_m": 0.6170950819672131,
+          "end_m": 3.0529967213114753,
+          "sill_m": 0,
+          "head_m": 2.25,
+          "type": "garage",
+          "id": "Garage sectional door",
+          "panel_ratios": [
+            1,
+            1
+          ],
+          "operation": "hinged",
+          "references": [
+            "bare/05_floor-plan.jpg"
+          ],
+          "confidence": "medium: retained plan location; inferred dimensions",
+          "opening_key": "EX-15-00"
+        }
+      ],
+      "exterior_normal": [
+        0,
+        -1
+      ]
+    },
+    {
+      "id": "West garage and service",
+      "a": [
+        -7.859842622950819,
+        10.880360655737704
+      ],
+      "b": [
+        -7.859842622950819,
+        -1.201711475409836
+      ],
+      "height_m": 2.7432000000000003,
+      "thickness_m": 0.18,
+      "openings": [
+        {
+          "start_m": 0.2435901639344262,
+          "end_m": 1.396583606557377,
+          "sill_m": 1.05,
+          "head_m": 2.44,
+          "type": "window",
+          "id": "Kitchen sink window",
+          "panel_ratios": [
+            1,
+            1
+          ],
+          "operation": "casement",
+          "references": [
+            "bare/05_floor-plan.jpg"
+          ],
+          "confidence": "medium: retained plan location; inferred dimensions",
+          "opening_key": "EX-16-00"
+        },
+        {
+          "id": "W-UTILITY-HIGH",
+          "start_m": 4.270947540983606,
+          "end_m": 5.602573770491803,
+          "sill_m": 1.86,
+          "head_m": 2.44,
+          "type": "window",
+          "panel_ratios": [
+            1
+          ],
+          "operation": "awning",
+          "exterior_finish": "EX | charcoal exterior window frames",
+          "interior_finish": "Paint | soft white trim",
+          "references": [
+            "bare/48_utility-room-a.jpg"
+          ],
+          "confidence": "high: arrangement; medium: photo-estimated dimensions",
+          "opening_key": "EX-16-01"
+        },
+        {
+          "start_m": 6.057275409836065,
+          "end_m": 6.982918032786885,
+          "sill_m": 0,
+          "head_m": 2.1336,
+          "type": "door",
+          "id": "Garage side door",
+          "panel_ratios": [
+            1,
+            1
+          ],
+          "operation": "hinged",
+          "references": [
+            "bare/05_floor-plan.jpg"
+          ],
+          "confidence": "medium: retained plan location; inferred dimensions",
+          "opening_key": "EX-16-02"
+        }
+      ],
+      "exterior_normal": [
+        -1,
+        0
+      ]
+    },
+    {
+      "id": "Kitchen west step",
+      "a": [
+        -7.859842622950819,
+        10.880360655737704
+      ],
+      "b": [
+        -7.047875409836065,
+        10.880360655737704
+      ],
+      "height_m": 2.7432000000000003,
+      "thickness_m": 0.18,
+      "openings": [],
+      "exterior_normal": [
+        0,
+        -1
+      ]
+    },
+    {
+      "id": "Family west",
+      "a": [
+        -7.047875409836065,
+        15.800881967213114
+      ],
+      "b": [
+        -7.047875409836065,
+        10.880360655737704
+      ],
+      "height_m": 2.7432000000000003,
+      "thickness_m": 0.18,
+      "openings": [],
+      "exterior_normal": [
+        -1,
+        0
+      ]
+    },
+    {
+      "id": "Corridor west long",
+      "a": [
+        -0.9094032786885246,
+        15.800881967213114
+      ],
+      "b": [
+        -0.9094032786885246,
+        9.256426229508197
+      ],
+      "height_m": 2.7432000000000003,
+      "thickness_m": 0.145,
+      "openings": []
+    },
+    {
+      "id": "Kitchen corridor arch",
+      "a": [
+        -0.9094032786885246,
+        9.256426229508197
+      ],
+      "b": [
+        0.9094032786885246,
+        9.256426229508197
+      ],
+      "height_m": 2.7432000000000003,
+      "thickness_m": 0.145,
+      "openings": [
+        {
+          "start_m": 0.7145311475409836,
+          "end_m": 1.6888918032786884,
+          "sill_m": 0,
+          "head_m": 2.48,
+          "type": "arch",
+          "id": "Hall arch"
+        }
+      ]
+    },
+    {
+      "id": "Service corridor west",
+      "a": [
+        -0.9094032786885246,
+        6.739327868852459
+      ],
+      "b": [
+        -0.9094032786885246,
+        2.1598327868852456
+      ],
+      "height_m": 2.7432000000000003,
+      "thickness_m": 0.145,
+      "openings": []
+    },
+    {
+      "id": "Bedroom 4 suite entry",
+      "a": [
+        0.9094032786885246,
+        15.800881967213114
+      ],
+      "b": [
+        0.9094032786885246,
+        14.290622950819671
+      ],
+      "height_m": 2.7432000000000003,
+      "thickness_m": 0.145,
+      "openings": [
+        {
+          "start_m": 0.5521377049180327,
+          "end_m": 1.396583606557377,
+          "sill_m": 0,
+          "head_m": 2.1336,
+          "type": "door",
+          "id": "Guest suite entry"
+        }
+      ]
+    },
+    {
+      "id": "Bedroom 4 south",
+      "a": [
+        0.9094032786885246,
+        14.290622950819671
+      ],
+      "b": [
+        6.641891803278688,
+        14.290622950819671
+      ],
+      "height_m": 2.7432000000000003,
+      "thickness_m": 0.145,
+      "openings": []
+    },
+    {
+      "id": "Bedroom 3 suite entry",
+      "a": [
+        0.9094032786885246,
+        14.290622950819671
+      ],
+      "b": [
+        0.9094032786885246,
+        10.490616393442622
+      ],
+      "height_m": 2.7432000000000003,
+      "thickness_m": 0.145,
+      "openings": [
+        {
+          "start_m": 0.19487213114754098,
+          "end_m": 1.0555573770491802,
+          "sill_m": 0,
+          "head_m": 2.1336,
+          "type": "door",
+          "id": "Bedroom 3 entry"
+        }
+      ]
+    },
+    {
+      "id": "Bedroom 3 south",
+      "a": [
+        0.9094032786885246,
+        10.490616393442622
+      ],
+      "b": [
+        6.641891803278688,
+        10.490616393442622
+      ],
+      "height_m": 2.7432000000000003,
+      "thickness_m": 0.145,
+      "openings": []
+    },
+    {
+      "id": "Bedroom 2 suite entry",
+      "a": [
+        0.9094032786885246,
+        10.490616393442622
+      ],
+      "b": [
+        0.9094032786885246,
+        6.739327868852459
+      ],
+      "height_m": 2.7432000000000003,
+      "thickness_m": 0.145,
+      "openings": [
+        {
+          "start_m": 0.1786327868852459,
+          "end_m": 1.0393180327868852,
+          "sill_m": 0,
+          "head_m": 2.1336,
+          "type": "door",
+          "id": "Bedroom 2 entry"
+        }
+      ]
+    },
+    {
+      "id": "Bedroom 2 south",
+      "a": [
+        0.9094032786885246,
+        6.739327868852459
+      ],
+      "b": [
+        6.641891803278688,
+        6.739327868852459
+      ],
+      "height_m": 2.7432000000000003,
+      "thickness_m": 0.145,
+      "openings": []
+    },
+    {
+      "id": "Bath 4 east",
+      "a": [
+        2.5495770491803276,
+        18.05815081967213
+      ],
+      "b": [
+        2.5495770491803276,
+        15.329940983606557
+      ],
+      "height_m": 2.7432000000000003,
+      "thickness_m": 0.145,
+      "openings": []
+    },
+    {
+      "id": "Bath 4 entry",
+      "a": [
+        0.9094032786885246,
+        15.329940983606557
+      ],
+      "b": [
+        2.5495770491803276,
+        15.329940983606557
+      ],
+      "height_m": 2.7432000000000003,
+      "thickness_m": 0.145,
+      "openings": [
+        {
+          "start_m": 0.6495737704918032,
+          "end_m": 1.4940196721311474,
+          "sill_m": 0,
+          "head_m": 2.1336,
+          "type": "door",
+          "id": "Bath 4 door"
+        }
+      ]
+    },
+    {
+      "id": "Closet 4 east",
+      "a": [
+        3.2803475409836063,
+        18.05815081967213
+      ],
+      "b": [
+        3.2803475409836063,
+        15.329940983606557
+      ],
+      "height_m": 2.7432000000000003,
+      "thickness_m": 0.145,
+      "openings": [
+        {
+          "start_m": 0.5683770491803278,
+          "end_m": 2.1111147540983604,
+          "sill_m": 0,
+          "head_m": 2.2,
+          "type": "closet",
+          "id": "Bedroom 4 closet"
+        }
+      ]
+    },
+    {
+      "id": "Closet 4 end",
+      "a": [
+        2.5495770491803276,
+        15.329940983606557
+      ],
+      "b": [
+        3.2803475409836063,
+        15.329940983606557
+      ],
+      "height_m": 2.7432000000000003,
+      "thickness_m": 0.145,
+      "openings": []
+    },
+    {
+      "id": "Bath 3 east",
+      "a": [
+        2.5495770491803276,
+        13.235065573770491
+      ],
+      "b": [
+        2.5495770491803276,
+        10.490616393442622
+      ],
+      "height_m": 2.7432000000000003,
+      "thickness_m": 0.145,
+      "openings": []
+    },
+    {
+      "id": "Bath 3 entry",
+      "a": [
+        0.9094032786885246,
+        13.235065573770491
+      ],
+      "b": [
+        2.5495770491803276,
+        13.235065573770491
+      ],
+      "height_m": 2.7432000000000003,
+      "thickness_m": 0.145,
+      "openings": [
+        {
+          "start_m": 0.6495737704918032,
+          "end_m": 1.4940196721311474,
+          "sill_m": 0,
+          "head_m": 2.1336,
+          "type": "door",
+          "id": "Bath 3 door"
+        }
+      ]
+    },
+    {
+      "id": "Closet 3 east",
+      "a": [
+        3.2803475409836063,
+        13.235065573770491
+      ],
+      "b": [
+        3.2803475409836063,
+        10.490616393442622
+      ],
+      "height_m": 2.7432000000000003,
+      "thickness_m": 0.145,
+      "openings": [
+        {
+          "start_m": 0.5683770491803278,
+          "end_m": 2.1111147540983604,
+          "sill_m": 0,
+          "head_m": 2.2,
+          "type": "closet",
+          "id": "Bedroom 3 closet"
+        }
+      ]
+    },
+    {
+      "id": "Closet 3 end",
+      "a": [
+        2.5495770491803276,
+        13.235065573770491
+      ],
+      "b": [
+        3.2803475409836063,
+        13.235065573770491
+      ],
+      "height_m": 2.7432000000000003,
+      "thickness_m": 0.145,
+      "openings": []
+    },
+    {
+      "id": "Bath 2 east",
+      "a": [
+        2.5495770491803276,
+        9.418819672131146
+      ],
+      "b": [
+        2.5495770491803276,
+        6.739327868852459
+      ],
+      "height_m": 2.7432000000000003,
+      "thickness_m": 0.145,
+      "openings": []
+    },
+    {
+      "id": "Bath 2 entry",
+      "a": [
+        0.9094032786885246,
+        9.418819672131146
+      ],
+      "b": [
+        2.5495770491803276,
+        9.418819672131146
+      ],
+      "height_m": 2.7432000000000003,
+      "thickness_m": 0.145,
+      "openings": [
+        {
+          "start_m": 0.6495737704918032,
+          "end_m": 1.4940196721311474,
+          "sill_m": 0,
+          "head_m": 2.1336,
+          "type": "door",
+          "id": "Bath 2 door"
+        }
+      ]
+    },
+    {
+      "id": "Closet 2 east",
+      "a": [
+        3.2803475409836063,
+        9.418819672131146
+      ],
+      "b": [
+        3.2803475409836063,
+        6.739327868852459
+      ],
+      "height_m": 2.7432000000000003,
+      "thickness_m": 0.145,
+      "openings": [
+        {
+          "start_m": 0.5683770491803278,
+          "end_m": 2.1111147540983604,
+          "sill_m": 0,
+          "head_m": 2.2,
+          "type": "closet",
+          "id": "Bedroom 2 closet"
+        }
+      ]
+    },
+    {
+      "id": "Closet 2 end",
+      "a": [
+        2.5495770491803276,
+        9.418819672131146
+      ],
+      "b": [
+        3.2803475409836063,
+        9.418819672131146
+      ],
+      "height_m": 2.7432000000000003,
+      "thickness_m": 0.145,
+      "openings": []
+    },
+    {
+      "id": "Primary closet north west",
+      "a": [
+        0.9094032786885246,
+        6.739327868852459
+      ],
+      "b": [
+        0.9094032786885246,
+        4.92052131147541
+      ],
+      "height_m": 2.7432000000000003,
+      "thickness_m": 0.145,
+      "openings": []
+    },
+    {
+      "id": "Primary north closet south",
+      "a": [
+        0.9094032786885246,
+        4.92052131147541
+      ],
+      "b": [
+        4.222229508196721,
+        4.92052131147541
+      ],
+      "height_m": 2.7432000000000003,
+      "thickness_m": 0.145,
+      "openings": [
+        {
+          "start_m": 1.3478655737704917,
+          "end_m": 2.370944262295082,
+          "sill_m": 0,
+          "head_m": 2.1336,
+          "type": "door",
+          "id": "Primary north closet"
+        }
+      ]
+    },
+    {
+      "id": "Primary north closet east",
+      "a": [
+        4.222229508196721,
+        6.739327868852459
+      ],
+      "b": [
+        4.222229508196721,
+        4.92052131147541
+      ],
+      "height_m": 2.7432000000000003,
+      "thickness_m": 0.145,
+      "openings": []
+    },
+    {
+      "id": "Primary south closet west",
+      "a": [
+        0.9094032786885246,
+        3.8000065573770487
+      ],
+      "b": [
+        0.9094032786885246,
+        2.1598327868852456
+      ],
+      "height_m": 2.7432000000000003,
+      "thickness_m": 0.145,
+      "openings": []
+    },
+    {
+      "id": "Primary south closet north",
+      "a": [
+        0.9094032786885246,
+        3.8000065573770487
+      ],
+      "b": [
+        4.222229508196721,
+        3.8000065573770487
+      ],
+      "height_m": 2.7432000000000003,
+      "thickness_m": 0.145,
+      "openings": [
+        {
+          "start_m": 2.403422950819672,
+          "end_m": 3.231629508196721,
+          "sill_m": 0,
+          "head_m": 2.1336,
+          "type": "door",
+          "id": "Primary bedroom entry"
+        }
+      ]
+    },
+    {
+      "id": "Primary south closet east",
+      "a": [
+        4.222229508196721,
+        3.8000065573770487
+      ],
+      "b": [
+        4.222229508196721,
+        2.1598327868852456
+      ],
+      "height_m": 2.7432000000000003,
+      "thickness_m": 0.145,
+      "openings": [
+        {
+          "start_m": 0.12991475409836065,
+          "end_m": 1.0230786885245902,
+          "sill_m": 0,
+          "head_m": 2.1336,
+          "type": "door",
+          "id": "Primary south closet"
+        }
+      ]
+    },
+    {
+      "id": "Primary suite south",
+      "a": [
+        0.9094032786885246,
+        2.1598327868852456
+      ],
+      "b": [
+        8.525655737704918,
+        2.1598327868852456
+      ],
+      "height_m": 2.7432000000000003,
+      "thickness_m": 0.145,
+      "openings": [
+        {
+          "start_m": 6.593173770491803,
+          "end_m": 7.470098360655737,
+          "sill_m": 0,
+          "head_m": 2.1336,
+          "type": "door",
+          "id": "Primary bath entry"
+        }
+      ]
+    },
+    {
+      "id": "Primary bathroom west",
+      "a": [
+        5.01795737704918,
+        2.1598327868852456
+      ],
+      "b": [
+        5.01795737704918,
+        -1.201711475409836
+      ],
+      "height_m": 2.7432000000000003,
+      "thickness_m": 0.145,
+      "openings": []
+    },
+    {
+      "id": "Primary toilet partition",
+      "a": [
+        5.01795737704918,
+        1.1367540983606557
+      ],
+      "b": [
+        6.723088524590163,
+        1.1367540983606557
+      ],
+      "height_m": 2.7432000000000003,
+      "thickness_m": 0.145,
+      "openings": [
+        {
+          "start_m": 0.8282065573770491,
+          "end_m": 1.607695081967213,
+          "sill_m": 0,
+          "head_m": 2.1336,
+          "type": "door",
+          "id": "Primary WC"
+        }
+      ]
+    },
+    {
+      "id": "Kitchen south service",
+      "a": [
+        -7.859842622950819,
+        6.739327868852459
+      ],
+      "b": [
+        -0.9094032786885246,
+        6.739327868852459
+      ],
+      "height_m": 2.7432000000000003,
+      "thickness_m": 0.145,
+      "openings": [
+        {
+          "start_m": 4.141032786885246,
+          "end_m": 5.14787213114754,
+          "sill_m": 0,
+          "head_m": 2.25,
+          "type": "passage",
+          "id": "Kitchen service passage"
+        }
+      ]
+    },
+    {
+      "id": "Mudroom south",
+      "a": [
+        -7.859842622950819,
+        5.099154098360655
+      ],
+      "b": [
+        -4.157272131147541,
+        5.099154098360655
+      ],
+      "height_m": 2.7432000000000003,
+      "thickness_m": 0.145,
+      "openings": [
+        {
+          "start_m": 1.3641049180327869,
+          "end_m": 2.224790163934426,
+          "sill_m": 0,
+          "head_m": 2.1336,
+          "type": "door",
+          "id": "Garage mudroom"
+        }
+      ]
+    },
+    {
+      "id": "Mudroom east",
+      "a": [
+        -4.12479344262295,
+        6.739327868852459
+      ],
+      "b": [
+        -4.12479344262295,
+        5.099154098360655
+      ],
+      "height_m": 2.7432000000000003,
+      "thickness_m": 0.145,
+      "openings": [
+        {
+          "start_m": 0.5683770491803278,
+          "end_m": 1.4290622950819671,
+          "sill_m": 0,
+          "head_m": 2.1336,
+          "type": "door",
+          "id": "Mudroom hall"
+        }
+      ]
+    },
+    {
+      "id": "Pantry south",
+      "a": [
+        -2.4359016393442623,
+        5.521377049180328
+      ],
+      "b": [
+        -0.9094032786885246,
+        5.521377049180328
+      ],
+      "height_m": 2.7432000000000003,
+      "thickness_m": 0.145,
+      "openings": []
+    },
+    {
+      "id": "Pantry west",
+      "a": [
+        -2.4359016393442623,
+        6.739327868852459
+      ],
+      "b": [
+        -2.4359016393442623,
+        5.521377049180328
+      ],
+      "height_m": 2.7432000000000003,
+      "thickness_m": 0.145,
+      "openings": [
+        {
+          "start_m": 0.14615409836065574,
+          "end_m": 1.0717967213114754,
+          "sill_m": 0,
+          "head_m": 2.1336,
+          "type": "door",
+          "id": "Pantry"
+        }
+      ]
+    },
+    {
+      "id": "Powder west",
+      "a": [
+        -2.4359016393442623,
+        5.521377049180328
+      ],
+      "b": [
+        -2.4359016393442623,
+        3.816245901639344
+      ],
+      "height_m": 2.7432000000000003,
+      "thickness_m": 0.145,
+      "openings": [
+        {
+          "start_m": 0.0811967213114754,
+          "end_m": 0.9905999999999999,
+          "sill_m": 0,
+          "head_m": 2.1336,
+          "type": "door",
+          "id": "Powder room"
+        }
+      ]
+    },
+    {
+      "id": "Butler pantry north",
+      "a": [
+        -4.157272131147541,
+        3.816245901639344
+      ],
+      "b": [
+        -0.9094032786885246,
+        3.816245901639344
+      ],
+      "height_m": 2.7432000000000003,
+      "thickness_m": 0.145,
+      "openings": [
+        {
+          "start_m": 0.6820524590163934,
+          "end_m": 1.5914557377049179,
+          "sill_m": 0,
+          "head_m": 2.1336,
+          "type": "door",
+          "id": "Butler pantry"
+        }
+      ]
+    },
+    {
+      "id": "Butler pantry south",
+      "a": [
+        -4.157272131147541,
+        2.1598327868852456
+      ],
+      "b": [
+        -0.9094032786885246,
+        2.1598327868852456
+      ],
+      "height_m": 2.7432000000000003,
+      "thickness_m": 0.145,
+      "openings": [
+        {
+          "start_m": 0.6820524590163934,
+          "end_m": 1.6564131147540981,
+          "sill_m": 0,
+          "head_m": 2.2,
+          "type": "passage",
+          "id": "Butler to dining"
+        }
+      ]
+    },
+    {
+      "id": "Butler coat partition",
+      "a": [
+        -1.6239344262295081,
+        3.816245901639344
+      ],
+      "b": [
+        -1.6239344262295081,
+        2.1598327868852456
+      ],
+      "height_m": 2.7432000000000003,
+      "thickness_m": 0.145,
+      "openings": [
+        {
+          "start_m": 0.30854754098360654,
+          "end_m": 1.3153868852459016,
+          "sill_m": 0,
+          "head_m": 2.2,
+          "type": "closet",
+          "id": "Hall coat closet"
+        }
+      ]
+    },
+    {
+      "id": "ADU rear",
+      "a": [
+        2.1958633763919826,
+        27.71956077419355
+      ],
+      "b": [
+        9.698396579064587,
+        27.71956077419355
+      ],
+      "height_m": 2.7432000000000003,
+      "thickness_m": 0.18,
+      "openings": [
+        {
+          "id": "W-ADU-LAUNDRY",
+          "start_m": 0.6,
+          "end_m": 1.43,
+          "sill_m": 0.65,
+          "head_m": 2.44,
+          "type": "window",
+          "panel_ratios": [
+            1
+          ],
+          "operation": "casement",
+          "exterior_finish": "EX | charcoal exterior window frames",
+          "interior_finish": "Paint | soft white trim",
+          "references": [
+            "staged/55_adu-studio-aa.jpg"
+          ],
+          "confidence": "high: arrangement; medium: photo-estimated dimensions",
+          "opening_key": "EX-19-00"
+        },
+        {
+          "id": "W-ADU-BATH",
+          "start_m": 6.262533039857948,
+          "end_m": 7.112533039857949,
+          "sill_m": 0.85,
+          "head_m": 2.44,
+          "type": "window",
+          "panel_ratios": [
+            1
+          ],
+          "operation": "casement",
+          "exterior_finish": "EX | charcoal exterior window frames",
+          "interior_finish": "Paint | soft white trim",
+          "references": [
+            "bare/61_adu-bathroom-a.jpg"
+          ],
+          "confidence": "high: arrangement; medium: photo-estimated dimensions",
+          "opening_key": "EX-19-01"
+        }
+      ],
+      "exterior_normal": [
+        0,
+        1
+      ]
+    },
+    {
+      "id": "ADU east",
+      "a": [
+        9.698396579064587,
+        27.71956077419355
+      ],
+      "b": [
+        9.698396579064587,
+        22.779441032258063
+      ],
+      "height_m": 2.7432000000000003,
+      "thickness_m": 0.18,
+      "openings": [
+        {
+          "id": "W-ADU-BED-1",
+          "start_m": 0.52,
+          "end_m": 1.31,
+          "sill_m": 0.65,
+          "head_m": 2.44,
+          "type": "window",
+          "panel_ratios": [
+            1
+          ],
+          "operation": "casement",
+          "exterior_finish": "EX | charcoal exterior window frames",
+          "interior_finish": "Paint | soft white trim",
+          "references": [
+            "staged/55_adu-studio-aa.jpg"
+          ],
+          "confidence": "high: arrangement; medium: photo-estimated dimensions",
+          "opening_key": "EX-20-00"
+        },
+        {
+          "id": "W-ADU-BED-2",
+          "start_m": 3.6301187953487717,
+          "end_m": 4.420118795348772,
+          "sill_m": 0.65,
+          "head_m": 2.44,
+          "type": "window",
+          "panel_ratios": [
+            1
+          ],
+          "operation": "casement",
+          "exterior_finish": "EX | charcoal exterior window frames",
+          "interior_finish": "Paint | soft white trim",
+          "references": [
+            "staged/55_adu-studio-aa.jpg"
+          ],
+          "confidence": "high: arrangement; medium: photo-estimated dimensions",
+          "opening_key": "EX-20-01"
+        }
+      ],
+      "exterior_normal": [
+        1,
+        0
+      ]
+    },
+    {
+      "id": "ADU front",
+      "a": [
+        2.1958633763919826,
+        22.779441032258063
+      ],
+      "b": [
+        9.698396579064587,
+        22.779441032258063
+      ],
+      "height_m": 2.7432000000000003,
+      "thickness_m": 0.18,
+      "openings": [
+        {
+          "id": "W-ADU-SINK",
+          "start_m": 1.2,
+          "end_m": 2.55,
+          "sill_m": 1.2,
+          "head_m": 2.44,
+          "type": "window",
+          "panel_ratios": [
+            1,
+            1
+          ],
+          "operation": "casement",
+          "exterior_finish": "EX | charcoal exterior window frames",
+          "interior_finish": "Paint | soft white trim",
+          "references": [
+            "bare/52_adu.jpg"
+          ],
+          "confidence": "high: arrangement; medium: photo-estimated dimensions",
+          "opening_key": "EX-21-00"
+        },
+        {
+          "id": "D-ADU-ENTRY",
+          "start_m": 3.12,
+          "end_m": 4.15,
+          "sill_m": 0,
+          "head_m": 2.13,
+          "type": "door",
+          "panel_ratios": [
+            1
+          ],
+          "operation": "hinged",
+          "exterior_finish": "EX | charcoal exterior window frames",
+          "interior_finish": "Paint | soft white trim",
+          "references": [
+            "bare/52_adu.jpg"
+          ],
+          "confidence": "high: arrangement; medium: photo-estimated dimensions",
+          "opening_key": "EX-21-01"
+        },
+        {
+          "id": "W-ADU-FRONT",
+          "start_m": 5.4,
+          "end_m": 6.9,
+          "sill_m": 0.65,
+          "head_m": 2.44,
+          "type": "window",
+          "panel_ratios": [
+            1,
+            1
+          ],
+          "operation": "casement",
+          "exterior_finish": "EX | charcoal exterior window frames",
+          "interior_finish": "Paint | soft white trim",
+          "references": [
+            "bare/52_adu.jpg"
+          ],
+          "confidence": "high: arrangement; medium: photo-estimated dimensions",
+          "opening_key": "EX-21-02"
+        }
+      ],
+      "exterior_normal": [
+        0,
+        -1
+      ]
+    },
+    {
+      "id": "ADU west",
+      "a": [
+        2.1958633763919826,
+        27.71956077419355
+      ],
+      "b": [
+        2.1958633763919826,
+        22.779441032258063
+      ],
+      "height_m": 2.7432000000000003,
+      "thickness_m": 0.18,
+      "openings": [
+        {
+          "id": "W-ADU-WEST",
+          "start_m": 0.39520950362790175,
+          "end_m": 2.124251081999972,
+          "sill_m": 0.65,
+          "head_m": 2.44,
+          "type": "window",
+          "panel_ratios": [
+            1,
+            1
+          ],
+          "operation": "casement",
+          "exterior_finish": "EX | charcoal exterior window frames",
+          "interior_finish": "Paint | soft white trim",
+          "references": [
+            "bare/72_drone-d.jpg"
+          ],
+          "confidence": "high: arrangement; medium: photo-estimated dimensions",
+          "opening_key": "EX-22-00"
+        }
+      ],
+      "exterior_normal": [
+        -1,
+        0
+      ]
+    },
+    {
+      "id": "ADU bath west",
+      "a": [
+        8.051499046770601,
+        27.71956077419355
+      ],
+      "b": [
+        8.051499046770601,
+        25.844144946236558
+      ],
+      "height_m": 2.7432000000000003,
+      "thickness_m": 0.18,
+      "openings": [
+        {
+          "start_m": 1.0689870170990505,
+          "end_m": 1.8379075030825784,
+          "sill_m": 0,
+          "head_m": 2.13,
+          "type": "door",
+          "id": "ADU bath"
+        }
+      ]
+    },
+    {
+      "id": "ADU bath south",
+      "a": [
+        8.051499046770601,
+        25.844144946236558
+      ],
+      "b": [
+        9.698396579064587,
+        25.844144946236558
+      ],
+      "height_m": 2.7432000000000003,
+      "thickness_m": 0.18,
+      "openings": []
+    },
+    {
+      "id": "ADU closet",
+      "a": [
+        6.084371438752785,
+        25.889886795698924
+      ],
+      "b": [
+        8.051499046770601,
+        25.889886795698924
+      ],
+      "height_m": 2.7432000000000003,
+      "thickness_m": 0.18,
+      "openings": [
+        {
+          "start_m": 0.15737022260545552,
+          "end_m": 1.7704150043113747,
+          "sill_m": 0,
+          "head_m": 2.13,
+          "type": "closet",
+          "id": "ADU closet"
+        }
+      ]
+    }
+  ],
+  "rooms": [
+    {
+      "id": "Kitchen and family",
+      "polygon_m": [
+        [
+          -7.047875409836065,
+          15.800881967213114
+        ],
+        [
+          -0.9094032786885246,
+          15.800881967213114
+        ],
+        [
+          -0.9094032786885246,
+          6.739327868852459
+        ],
+        [
+          -7.859842622950819,
+          6.739327868852459
+        ],
+        [
+          -7.859842622950819,
+          10.880360655737704
+        ],
+        [
+          -7.047875409836065,
+          10.880360655737704
+        ]
+      ],
+      "finish": "wood",
+      "tray": true
+    },
+    {
+      "id": "Entry and long corridor",
+      "polygon_m": [
+        [
+          -0.9094032786885246,
+          15.800881967213114
+        ],
+        [
+          0.9094032786885246,
+          15.800881967213114
+        ],
+        [
+          0.9094032786885246,
+          4.92052131147541
+        ],
+        [
+          4.222229508196721,
+          4.92052131147541
+        ],
+        [
+          4.222229508196721,
+          3.8000065573770487
+        ],
+        [
+          0.9094032786885246,
+          3.8000065573770487
+        ],
+        [
+          0.9094032786885246,
+          2.1598327868852456
+        ],
+        [
+          -0.9094032786885246,
+          2.1598327868852456
+        ]
+      ],
+      "finish": "wood",
+      "tray": false
+    },
+    {
+      "id": "Dining and formal living",
+      "polygon_m": [
+        [
+          -4.157272131147541,
+          2.1598327868852456
+        ],
+        [
+          5.01795737704918,
+          2.1598327868852456
+        ],
+        [
+          5.01795737704918,
+          -1.9487213114754096
+        ],
+        [
+          1.201711475409836,
+          -1.9487213114754096
+        ],
+        [
+          1.201711475409836,
+          0.0
+        ],
+        [
+          -0.7794885245901639,
+          0.0
+        ],
+        [
+          -0.7794885245901639,
+          -1.9487213114754096
+        ],
+        [
+          -4.157272131147541,
+          -1.9487213114754096
+        ]
+      ],
+      "finish": "wood",
+      "tray": false
+    },
+    {
+      "id": "Bedroom 4",
+      "polygon_m": [
+        [
+          3.2803475409836063,
+          18.05815081967213
+        ],
+        [
+          6.641891803278688,
+          18.05815081967213
+        ],
+        [
+          6.641891803278688,
+          14.290622950819671
+        ],
+        [
+          0.9094032786885246,
+          14.290622950819671
+        ],
+        [
+          0.9094032786885246,
+          15.329940983606557
+        ],
+        [
+          3.2803475409836063,
+          15.329940983606557
+        ]
+      ],
+      "finish": "wood",
+      "tray": true
+    },
+    {
+      "id": "Bath 4",
+      "polygon_m": [
+        [
+          0.9094032786885246,
+          18.05815081967213
+        ],
+        [
+          2.5495770491803276,
+          18.05815081967213
+        ],
+        [
+          2.5495770491803276,
+          15.329940983606557
+        ],
+        [
+          0.9094032786885246,
+          15.329940983606557
+        ]
+      ],
+      "finish": "tile",
+      "tray": false
+    },
+    {
+      "id": "Closet 4",
+      "polygon_m": [
+        [
+          2.5495770491803276,
+          18.05815081967213
+        ],
+        [
+          3.2803475409836063,
+          18.05815081967213
+        ],
+        [
+          3.2803475409836063,
+          15.329940983606557
+        ],
+        [
+          2.5495770491803276,
+          15.329940983606557
+        ]
+      ],
+      "finish": "wood",
+      "tray": false
+    },
+    {
+      "id": "Bedroom 3",
+      "polygon_m": [
+        [
+          0.9094032786885246,
+          14.290622950819671
+        ],
+        [
+          6.641891803278688,
+          14.290622950819671
+        ],
+        [
+          6.641891803278688,
+          10.490616393442622
+        ],
+        [
+          3.2803475409836063,
+          10.490616393442622
+        ],
+        [
+          3.2803475409836063,
+          13.235065573770491
+        ],
+        [
+          0.9094032786885246,
+          13.235065573770491
+        ]
+      ],
+      "finish": "wood",
+      "tray": true
+    },
+    {
+      "id": "Bath 3",
+      "polygon_m": [
+        [
+          0.9094032786885246,
+          13.235065573770491
+        ],
+        [
+          2.5495770491803276,
+          13.235065573770491
+        ],
+        [
+          2.5495770491803276,
+          10.490616393442622
+        ],
+        [
+          0.9094032786885246,
+          10.490616393442622
+        ]
+      ],
+      "finish": "tile",
+      "tray": false
+    },
+    {
+      "id": "Closet 3",
+      "polygon_m": [
+        [
+          2.5495770491803276,
+          13.235065573770491
+        ],
+        [
+          3.2803475409836063,
+          13.235065573770491
+        ],
+        [
+          3.2803475409836063,
+          10.490616393442622
+        ],
+        [
+          2.5495770491803276,
+          10.490616393442622
+        ]
+      ],
+      "finish": "wood",
+      "tray": false
+    },
+    {
+      "id": "Bedroom 2",
+      "polygon_m": [
+        [
+          0.9094032786885246,
+          10.490616393442622
+        ],
+        [
+          6.641891803278688,
+          10.490616393442622
+        ],
+        [
+          6.641891803278688,
+          6.739327868852459
+        ],
+        [
+          3.2803475409836063,
+          6.739327868852459
+        ],
+        [
+          3.2803475409836063,
+          9.435059016393442
+        ],
+        [
+          0.9094032786885246,
+          9.435059016393442
+        ]
+      ],
+      "finish": "wood",
+      "tray": true
+    },
+    {
+      "id": "Bath 2",
+      "polygon_m": [
+        [
+          0.9094032786885246,
+          9.435059016393442
+        ],
+        [
+          2.5495770491803276,
+          9.435059016393442
+        ],
+        [
+          2.5495770491803276,
+          6.739327868852459
+        ],
+        [
+          0.9094032786885246,
+          6.739327868852459
+        ]
+      ],
+      "finish": "tile",
+      "tray": false
+    },
+    {
+      "id": "Closet 2",
+      "polygon_m": [
+        [
+          2.5495770491803276,
+          9.435059016393442
+        ],
+        [
+          3.2803475409836063,
+          9.435059016393442
+        ],
+        [
+          3.2803475409836063,
+          6.739327868852459
+        ],
+        [
+          2.5495770491803276,
+          6.739327868852459
+        ]
+      ],
+      "finish": "wood",
+      "tray": false
+    },
+    {
+      "id": "Primary bedroom",
+      "polygon_m": [
+        [
+          4.222229508196721,
+          6.739327868852459
+        ],
+        [
+          8.525655737704918,
+          6.739327868852459
+        ],
+        [
+          8.525655737704918,
+          2.1598327868852456
+        ],
+        [
+          4.222229508196721,
+          2.1598327868852456
+        ]
+      ],
+      "finish": "wood",
+      "tray": true
+    },
+    {
+      "id": "Primary closet north",
+      "polygon_m": [
+        [
+          0.9094032786885246,
+          6.739327868852459
+        ],
+        [
+          4.222229508196721,
+          6.739327868852459
+        ],
+        [
+          4.222229508196721,
+          4.92052131147541
+        ],
+        [
+          0.9094032786885246,
+          4.92052131147541
+        ]
+      ],
+      "finish": "wood",
+      "tray": false
+    },
+    {
+      "id": "Primary closet south",
+      "polygon_m": [
+        [
+          0.9094032786885246,
+          3.8000065573770487
+        ],
+        [
+          4.222229508196721,
+          3.8000065573770487
+        ],
+        [
+          4.222229508196721,
+          2.1598327868852456
+        ],
+        [
+          0.9094032786885246,
+          2.1598327868852456
+        ]
+      ],
+      "finish": "wood",
+      "tray": false
+    },
+    {
+      "id": "Primary bathroom",
+      "polygon_m": [
+        [
+          5.01795737704918,
+          2.1598327868852456
+        ],
+        [
+          8.525655737704918,
+          2.1598327868852456
+        ],
+        [
+          8.525655737704918,
+          -1.201711475409836
+        ],
+        [
+          5.01795737704918,
+          -1.201711475409836
+        ]
+      ],
+      "finish": "tile",
+      "tray": false
+    },
+    {
+      "id": "Garage",
+      "polygon_m": [
+        [
+          -7.859842622950819,
+          5.099154098360655
+        ],
+        [
+          -4.157272131147541,
+          5.099154098360655
+        ],
+        [
+          -4.157272131147541,
+          -1.201711475409836
+        ],
+        [
+          -7.859842622950819,
+          -1.201711475409836
+        ]
+      ],
+      "finish": "paver",
+      "tray": false
+    },
+    {
+      "id": "Mudroom",
+      "polygon_m": [
+        [
+          -7.859842622950819,
+          6.739327868852459
+        ],
+        [
+          -4.12479344262295,
+          6.739327868852459
+        ],
+        [
+          -4.12479344262295,
+          5.099154098360655
+        ],
+        [
+          -7.859842622950819,
+          5.099154098360655
+        ]
+      ],
+      "finish": "tile",
+      "tray": false
+    },
+    {
+      "id": "Service hall",
+      "polygon_m": [
+        [
+          -4.12479344262295,
+          6.739327868852459
+        ],
+        [
+          -2.4359016393442623,
+          6.739327868852459
+        ],
+        [
+          -2.4359016393442623,
+          3.816245901639344
+        ],
+        [
+          -4.12479344262295,
+          3.816245901639344
+        ]
+      ],
+      "finish": "wood",
+      "tray": false
+    },
+    {
+      "id": "Pantry",
+      "polygon_m": [
+        [
+          -2.4359016393442623,
+          6.739327868852459
+        ],
+        [
+          -0.9094032786885246,
+          6.739327868852459
+        ],
+        [
+          -0.9094032786885246,
+          5.521377049180328
+        ],
+        [
+          -2.4359016393442623,
+          5.521377049180328
+        ]
+      ],
+      "finish": "wood",
+      "tray": false
+    },
+    {
+      "id": "Powder",
+      "polygon_m": [
+        [
+          -2.4359016393442623,
+          5.521377049180328
+        ],
+        [
+          -0.9094032786885246,
+          5.521377049180328
+        ],
+        [
+          -0.9094032786885246,
+          3.816245901639344
+        ],
+        [
+          -2.4359016393442623,
+          3.816245901639344
+        ]
+      ],
+      "finish": "tile",
+      "tray": false
+    },
+    {
+      "id": "Butler pantry",
+      "polygon_m": [
+        [
+          -4.157272131147541,
+          3.816245901639344
+        ],
+        [
+          -1.6239344262295081,
+          3.816245901639344
+        ],
+        [
+          -1.6239344262295081,
+          2.1598327868852456
+        ],
+        [
+          -4.157272131147541,
+          2.1598327868852456
+        ]
+      ],
+      "finish": "tile",
+      "tray": false
+    },
+    {
+      "id": "Coat closet",
+      "polygon_m": [
+        [
+          -1.6239344262295081,
+          3.816245901639344
+        ],
+        [
+          -0.9094032786885246,
+          3.816245901639344
+        ],
+        [
+          -0.9094032786885246,
+          2.1598327868852456
+        ],
+        [
+          -1.6239344262295081,
+          2.1598327868852456
+        ]
+      ],
+      "finish": "wood",
+      "tray": false
+    },
+    {
+      "id": "ADU studio",
+      "polygon_m": [
+        [
+          2.1958633763919826,
+          27.71956077419355
+        ],
+        [
+          9.698396579064589,
+          27.71956077419355
+        ],
+        [
+          9.698396579064589,
+          22.779441032258063
+        ],
+        [
+          2.1958633763919826,
+          22.779441032258063
+        ]
+      ],
+      "finish": "wood",
+      "tray": false
+    }
+  ],
+  "assumptions": [
+    "Raster dimensions conflict slightly; main scale calibrated to family room width. Not a measured survey.",
+    "9 ft wall/lower ceiling and 10 ft recessed centers are user supplied. Tray margins are photo estimates.",
+    "Window sill/head heights, wall thicknesses and door heights are inferred except where explicitly supplied.",
+    "Corridor rear glazing is fixed; sill estimated at 0.76 m. Annotation 4.10 is not treated as an exit.",
+    "Site plans show approximate vegetation locations, not surveyed canopy size or seasonal transmission.",
+    "Roof form and pitch are visual massing only. Roof collection excluded from interior/plan scenes.",
+    "No furniture from previous design proposals has been inserted. Built-ins follow plan and empty-room photo.",
+    "Solar vectors are approximate NOAA clear-sky geometry, not calibrated illuminance or energy simulation.",
+    "Exterior arrangements follow compressed/bare and compressed/staged photographs. Dimensions remain photo-calibrated estimates.",
+    "Connected roof is a photo-guided editable reconstruction; ridge elevations and pitches are not surveyed."
+  ],
+  "exterior_revision": "Photo corrections 2026-09-07"
+}

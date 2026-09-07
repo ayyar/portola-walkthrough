@@ -1,0 +1,863 @@
+[
+  {
+    "id": "original",
+    "title": "Original unfurnished",
+    "model": "models/house.glb"
+  },
+  {
+    "id": "four-seasons-kyoto",
+    "title": "Four Seasons Kyoto",
+    "subtitle": "Garden salon",
+    "model": "models/designs/four-seasons-kyoto.glb",
+    "film": "films/four-seasons-kyoto.mp4",
+    "poster": "previews/four-seasons-kyoto.png",
+    "views": {
+      "formal": {
+        "position": [
+          1.559999942779541,
+          1.5199999809265137,
+          1.2000000476837158
+        ],
+        "look": [
+          3.200000047683716,
+          1.100000023841858,
+          -0.8999999761581421
+        ]
+      },
+      "dining": {
+        "position": [
+          -3.599769353866577,
+          1.5799994468688965,
+          -1.6799845695495605
+        ],
+        "look": [
+          -2.4000096321105957,
+          0.9500032067298889,
+          0.25
+        ]
+      },
+      "hallway": {
+        "position": [
+          0.0,
+          1.5700000524520874,
+          -4.246461868286133
+        ],
+        "look": [
+          0.0,
+          1.511447787284851,
+          -13.001344680786133
+        ]
+      },
+      "great": {
+        "position": [
+          -2.7597079277038574,
+          1.5799989700317383,
+          -10.679720878601074
+        ],
+        "look": [
+          -4.099883556365967,
+          1.0000423192977905,
+          -13.399820327758789
+        ]
+      }
+    }
+  },
+  {
+    "id": "patina-osaka",
+    "title": "Patina Osaka",
+    "subtitle": "Earth, copper, and a sculptural canopy",
+    "model": "models/designs/patina-osaka.glb",
+    "film": "films/patina-osaka.mp4",
+    "poster": "previews/patina-osaka.png",
+    "views": {
+      "formal": {
+        "position": [
+          1.559999942779541,
+          1.5199999809265137,
+          1.2000000476837158
+        ],
+        "look": [
+          3.200000047683716,
+          1.100000023841858,
+          -0.8999999761581421
+        ]
+      },
+      "dining": {
+        "position": [
+          -3.599769353866577,
+          1.5799994468688965,
+          -1.6799845695495605
+        ],
+        "look": [
+          -2.4000096321105957,
+          0.9500032067298889,
+          0.25
+        ]
+      },
+      "hallway": {
+        "position": [
+          0.0,
+          1.5700000524520874,
+          -4.246461868286133
+        ],
+        "look": [
+          0.0,
+          1.511447787284851,
+          -13.001344680786133
+        ]
+      },
+      "great": {
+        "position": [
+          -2.3998513221740723,
+          1.579996943473816,
+          -10.919628143310547
+        ],
+        "look": [
+          -3.6999258995056152,
+          1.1000317335128784,
+          -13.499810218811035
+        ]
+      }
+    }
+  },
+  {
+    "id": "himeji-castle",
+    "title": "Himeji Castle",
+    "subtitle": "Timber, lime, and stillness",
+    "model": "models/designs/himeji-castle.glb",
+    "film": "films/himeji-castle.mp4",
+    "poster": "previews/himeji-castle.png",
+    "views": {
+      "formal": {
+        "position": [
+          1.559999942779541,
+          1.5199999809265137,
+          1.2000000476837158
+        ],
+        "look": [
+          3.200000047683716,
+          1.100000023841858,
+          -0.8999999761581421
+        ]
+      },
+      "dining": {
+        "position": [
+          -3.599769353866577,
+          1.5799994468688965,
+          -1.6799845695495605
+        ],
+        "look": [
+          -2.4000096321105957,
+          0.9500032067298889,
+          0.25
+        ]
+      },
+      "hallway": {
+        "position": [
+          0.0,
+          1.5700000524520874,
+          -4.246461868286133
+        ],
+        "look": [
+          0.0,
+          1.511447787284851,
+          -13.001344680786133
+        ]
+      },
+      "great": {
+        "position": [
+          -2.7597079277038574,
+          1.5799989700317383,
+          -10.679720878601074
+        ],
+        "look": [
+          -4.099883556365967,
+          1.0000423192977905,
+          -13.399820327758789
+        ]
+      }
+    }
+  },
+  {
+    "id": "park-hyatt-kyoto",
+    "title": "Park Hyatt Kyoto",
+    "subtitle": "Pale timber, intimate light",
+    "model": "models/designs/park-hyatt-kyoto.glb",
+    "film": "films/park-hyatt-kyoto.mp4",
+    "poster": "previews/park-hyatt-kyoto.png",
+    "views": {
+      "formal": {
+        "position": [
+          1.559999942779541,
+          1.5199999809265137,
+          1.2000000476837158
+        ],
+        "look": [
+          3.200000047683716,
+          1.100000023841858,
+          -0.8999999761581421
+        ]
+      },
+      "dining": {
+        "position": [
+          -3.599769353866577,
+          1.5799994468688965,
+          -1.6799845695495605
+        ],
+        "look": [
+          -2.4000096321105957,
+          0.9500032067298889,
+          0.25
+        ]
+      },
+      "hallway": {
+        "position": [
+          0.0,
+          1.5700000524520874,
+          -4.246461868286133
+        ],
+        "look": [
+          0.0,
+          1.511447787284851,
+          -13.001344680786133
+        ]
+      },
+      "great": {
+        "position": [
+          -2.7597079277038574,
+          1.5799989700317383,
+          -10.679720878601074
+        ],
+        "look": [
+          -4.099883556365967,
+          1.0000423192977905,
+          -13.399820327758789
+        ]
+      }
+    }
+  },
+  {
+    "id": "four-seasons-kyoto-r2",
+    "title": "Four Seasons Kyoto · Room alternatives",
+    "subtitle": "Hospitality shaped by a sequence of gardens, with seasonal change held inside a stable, generous framework.",
+    "model": "models/r2/base-house.glb",
+    "rooms": {
+      "formal": [
+        {
+          "name": "The garden correspondent",
+          "purpose": "A home office for writing, calls and sustained individual work.",
+          "model": "models/r2/four-seasons-kyoto/formal-1.glb"
+        },
+        {
+          "name": "The seasonal lending room",
+          "purpose": "A library where a host and guest read or exchange a book.",
+          "model": "models/r2/four-seasons-kyoto/formal-2.glb"
+        },
+        {
+          "name": "Rain-listening salon",
+          "purpose": "A room for records, tea and long pauses between conversations.",
+          "model": "models/r2/four-seasons-kyoto/formal-3.glb"
+        }
+      ],
+      "dining": [
+        {
+          "name": "Six equals around a garden table",
+          "purpose": "Unhurried daily meals without a privileged head seat.",
+          "model": "models/r2/four-seasons-kyoto/dining-1.glb"
+        },
+        {
+          "name": "The seasonal feast",
+          "purpose": "A more ceremonial setting for hosting without a formal head-of-table hierarchy.",
+          "model": "models/r2/four-seasons-kyoto/dining-2.glb"
+        },
+        {
+          "name": "Breakfast in filtered light",
+          "purpose": "A bright, tactile room that begins the day gently.",
+          "model": "models/r2/four-seasons-kyoto/dining-3.glb"
+        }
+      ],
+      "great": [
+        {
+          "name": "The borrowed garden",
+          "purpose": "Conversation remains open to the garden beyond.",
+          "model": "models/r2/four-seasons-kyoto/great-1.glb"
+        },
+        {
+          "name": "The host and the arriving guest",
+          "purpose": "The great room welcomes people arriving from the kitchen and hall.",
+          "model": "models/r2/four-seasons-kyoto/great-2.glb"
+        },
+        {
+          "name": "A sheltered evening by the hearth",
+          "purpose": "An intimate evening group within a larger bright room.",
+          "model": "models/r2/four-seasons-kyoto/great-3.glb"
+        }
+      ],
+      "corridor": [
+        {
+          "name": "The garden-side promenade",
+          "purpose": "A directed walk with one inhabited edge and one quiet edge.",
+          "model": "models/r2/four-seasons-kyoto/corridor-1.glb"
+        },
+        {
+          "name": "Three seasonal thresholds",
+          "purpose": "Arrival is a sequence of pauses rather than a decorated tunnel.",
+          "model": "models/r2/four-seasons-kyoto/corridor-2.glb"
+        },
+        {
+          "name": "The reflected garden trace",
+          "purpose": "The rear view becomes a distant, changing point of orientation.",
+          "model": "models/r2/four-seasons-kyoto/corridor-3.glb"
+        }
+      ]
+    },
+    "presets": [
+      {
+        "title": "The garden scholar",
+        "film": null,
+        "poster": "previews/r2/four-seasons-kyoto-1.png"
+      },
+      {
+        "title": "An afternoon of hospitality",
+        "film": null,
+        "poster": "previews/r2/four-seasons-kyoto-2.png"
+      },
+      {
+        "title": "Music after the rain",
+        "film": null,
+        "poster": "previews/r2/four-seasons-kyoto-3.png"
+      }
+    ],
+    "views": {
+      "entry": {
+        "position": [
+          0.08500000089406967,
+          1.6200000047683716,
+          -0.2199999988079071
+        ],
+        "look": [
+          0.18230107426643372,
+          1.549235463142395,
+          -4.2181901931762695
+        ]
+      },
+      "formal": {
+        "position": [
+          1.5700000524520874,
+          1.6200000047683716,
+          -0.7599999904632568
+        ],
+        "look": [
+          5.119428634643555,
+          0.7595323324203491,
+          0.8713034391403198
+        ]
+      },
+      "dining": {
+        "position": [
+          -3.3153936862945557,
+          1.619999885559082,
+          -1.7799999713897705
+        ],
+        "look": [
+          -1.9690896272659302,
+          0.7675725221633911,
+          1.8889002799987793
+        ]
+      },
+      "hallway": {
+        "position": [
+          0.25,
+          1.6200000047683716,
+          -10.800000190734863
+        ],
+        "look": [
+          0.25,
+          1.505760908126831,
+          -14.798368453979492
+        ]
+      },
+      "great": {
+        "position": [
+          -6.417599678039551,
+          1.6200000047683716,
+          -12.328319549560547
+        ],
+        "look": [
+          -2.6131529808044434,
+          1.1374562978744507,
+          -13.465568542480469
+        ]
+      }
+    },
+    "gallery": "Revisions.html"
+  },
+  {
+    "id": "patina-osaka-r2",
+    "title": "Patina Osaka · Room alternatives",
+    "subtitle": "Urban craft, exchange and adaptable use; rooms are places to make and gather, with earth, copper and evidence of the hand.",
+    "model": "models/r2/base-house.glb",
+    "rooms": {
+      "formal": [
+        {
+          "name": "The material atelier",
+          "purpose": "A home studio for sketching, material samples and practical work.",
+          "model": "models/r2/patina-osaka/formal-1.glb"
+        },
+        {
+          "name": "The record exchange",
+          "purpose": "A compact room for two friends to listen, talk and exchange records.",
+          "model": "models/r2/patina-osaka/formal-2.glb"
+        },
+        {
+          "name": "The creative call studio",
+          "purpose": "A video-call office that can host an informal working conversation.",
+          "model": "models/r2/patina-osaka/formal-3.glb"
+        }
+      ],
+      "dining": [
+        {
+          "name": "The makers table",
+          "purpose": "A table that supports shared dishes, drawing and everyday mess.",
+          "model": "models/r2/patina-osaka/dining-1.glb"
+        },
+        {
+          "name": "The late supper club",
+          "purpose": "A close evening table with stronger social focus.",
+          "model": "models/r2/patina-osaka/dining-2.glb"
+        },
+        {
+          "name": "The shared tasting square",
+          "purpose": "A dining room for passing dishes in several directions.",
+          "model": "models/r2/patina-osaka/dining-3.glb"
+        }
+      ],
+      "great": [
+        {
+          "name": "The social island",
+          "purpose": "The kitchen and living group share one active social boundary.",
+          "model": "models/r2/patina-osaka/great-1.glb"
+        },
+        {
+          "name": "The nocturnal conversation pit",
+          "purpose": "A close, low-feeling conversation group without changing the floor level.",
+          "model": "models/r2/patina-osaka/great-2.glb"
+        },
+        {
+          "name": "The open critique room",
+          "purpose": "A living room that can host a few people looking at an object or discussing work.",
+          "model": "models/r2/patina-osaka/great-3.glb"
+        }
+      ],
+      "corridor": [
+        {
+          "name": "The working gallery spine",
+          "purpose": "The hall records making and changing interests.",
+          "model": "models/r2/patina-osaka/corridor-1.glb"
+        },
+        {
+          "name": "A sequence of urban fragments",
+          "purpose": "Movement encounters a few strong objects rather than continuous panelling.",
+          "model": "models/r2/patina-osaka/corridor-2.glb"
+        },
+        {
+          "name": "The copper datum",
+          "purpose": "A simple repeated line ties a lively home together.",
+          "model": "models/r2/patina-osaka/corridor-3.glb"
+        }
+      ]
+    },
+    "presets": [
+      {
+        "title": "The working atelier",
+        "film": null,
+        "poster": "previews/r2/patina-osaka-1.png"
+      },
+      {
+        "title": "The city after dark",
+        "film": null,
+        "poster": "previews/r2/patina-osaka-2.png"
+      },
+      {
+        "title": "An open house for makers",
+        "film": null,
+        "poster": "previews/r2/patina-osaka-3.png"
+      }
+    ],
+    "views": {
+      "entry": {
+        "position": [
+          0.08500000089406967,
+          1.6200000047683716,
+          -0.2199999988079071
+        ],
+        "look": [
+          0.18230107426643372,
+          1.549235463142395,
+          -4.2181901931762695
+        ]
+      },
+      "formal": {
+        "position": [
+          1.5700000524520874,
+          1.6200000047683716,
+          -0.7599999904632568
+        ],
+        "look": [
+          5.119428634643555,
+          0.7595323324203491,
+          0.8713034391403198
+        ]
+      },
+      "dining": {
+        "position": [
+          -3.3153936862945557,
+          1.619999885559082,
+          -1.7799999713897705
+        ],
+        "look": [
+          -1.9690896272659302,
+          0.7675725221633911,
+          1.8889002799987793
+        ]
+      },
+      "hallway": {
+        "position": [
+          0.25,
+          1.6200000047683716,
+          -10.800000190734863
+        ],
+        "look": [
+          0.25,
+          1.505760908126831,
+          -14.798368453979492
+        ]
+      },
+      "great": {
+        "position": [
+          -6.417599678039551,
+          1.6200000047683716,
+          -12.328319549560547
+        ],
+        "look": [
+          -2.6131529808044434,
+          1.1374562978744507,
+          -13.465568542480469
+        ]
+      }
+    },
+    "gallery": "Revisions.html"
+  },
+  {
+    "id": "himeji-castle-r2",
+    "title": "Himeji Castle · Room alternatives",
+    "subtitle": "A domestic interpretation of defensive depth, structural clarity and white plaster against dark timber; ordered space without theatrical castle props.",
+    "model": "models/r2/base-house.glb",
+    "rooms": {
+      "formal": [
+        {
+          "name": "The strategist study",
+          "purpose": "A focused home office with a legible place for work and a calm arrival.",
+          "model": "models/r2/himeji-castle/formal-1.glb"
+        },
+        {
+          "name": "The domestic archive",
+          "purpose": "A room for examining a few books or objects with care.",
+          "model": "models/r2/himeji-castle/formal-2.glb"
+        },
+        {
+          "name": "The room of considered debate",
+          "purpose": "Two people can meet on equal terms without a desk separating host and visitor.",
+          "model": "models/r2/himeji-castle/formal-3.glb"
+        }
+      ],
+      "dining": [
+        {
+          "name": "The household council",
+          "purpose": "A clear six-place table for shared decisions and daily meals.",
+          "model": "models/r2/himeji-castle/dining-1.glb"
+        },
+        {
+          "name": "The white chamber meal",
+          "purpose": "A lighter, more intimate counterpoint to the dark archive.",
+          "model": "models/r2/himeji-castle/dining-2.glb"
+        },
+        {
+          "name": "The hearthless refectory",
+          "purpose": "A room whose warmth comes from use and material rather than ornament.",
+          "model": "models/r2/himeji-castle/dining-3.glb"
+        }
+      ],
+      "great": [
+        {
+          "name": "The inhabited keep",
+          "purpose": "A protected centre with a clear perimeter route.",
+          "model": "models/r2/himeji-castle/great-1.glb"
+        },
+        {
+          "name": "The white lookout",
+          "purpose": "A room oriented toward distance and daylight.",
+          "model": "models/r2/himeji-castle/great-2.glb"
+        },
+        {
+          "name": "The inner audience room",
+          "purpose": "A deliberately face-to-face place for sustained conversation.",
+          "model": "models/r2/himeji-castle/great-3.glb"
+        }
+      ],
+      "corridor": [
+        {
+          "name": "The sequence of gates",
+          "purpose": "The long hall is understood through measured thresholds.",
+          "model": "models/r2/himeji-castle/corridor-1.glb"
+        },
+        {
+          "name": "The plaster void and timber edge",
+          "purpose": "One edge carries weight while the other releases it.",
+          "model": "models/r2/himeji-castle/corridor-2.glb"
+        },
+        {
+          "name": "The lantern intervals",
+          "purpose": "The walk is paced by isolated sources of warm light.",
+          "model": "models/r2/himeji-castle/corridor-3.glb"
+        }
+      ]
+    },
+    "presets": [
+      {
+        "title": "The strategist at home",
+        "film": null,
+        "poster": "previews/r2/himeji-castle-1.png"
+      },
+      {
+        "title": "An archive of quiet objects",
+        "film": null,
+        "poster": "previews/r2/himeji-castle-2.png"
+      },
+      {
+        "title": "A house for deliberate conversation",
+        "film": null,
+        "poster": "previews/r2/himeji-castle-3.png"
+      }
+    ],
+    "views": {
+      "entry": {
+        "position": [
+          0.08500000089406967,
+          1.6200000047683716,
+          -0.2199999988079071
+        ],
+        "look": [
+          0.18230107426643372,
+          1.549235463142395,
+          -4.2181901931762695
+        ]
+      },
+      "formal": {
+        "position": [
+          1.5700000524520874,
+          1.6200000047683716,
+          -0.7599999904632568
+        ],
+        "look": [
+          5.119428634643555,
+          0.7595323324203491,
+          0.8713034391403198
+        ]
+      },
+      "dining": {
+        "position": [
+          -3.3153936862945557,
+          1.619999885559082,
+          -1.7799999713897705
+        ],
+        "look": [
+          -1.9690896272659302,
+          0.7675725221633911,
+          1.8889002799987793
+        ]
+      },
+      "hallway": {
+        "position": [
+          0.25,
+          1.6200000047683716,
+          -10.800000190734863
+        ],
+        "look": [
+          0.25,
+          1.505760908126831,
+          -14.798368453979492
+        ]
+      },
+      "great": {
+        "position": [
+          -6.417599678039551,
+          1.6200000047683716,
+          -12.328319549560547
+        ],
+        "look": [
+          -2.6131529808044434,
+          1.1374562978744507,
+          -13.465568542480469
+        ]
+      }
+    },
+    "gallery": "Revisions.html"
+  },
+  {
+    "id": "park-hyatt-kyoto-r2",
+    "title": "Park Hyatt Kyoto · Room alternatives",
+    "subtitle": "Layered depth, intimate light and deliberate emptiness; craft is perceived through edges, proportions and the way a room reveals itself.",
+    "model": "models/r2/base-house.glb",
+    "rooms": {
+      "formal": [
+        {
+          "name": "The discreet video office",
+          "purpose": "An everyday Zoom room with a composed background and no corporate reception effect.",
+          "model": "models/r2/park-hyatt-kyoto/formal-1.glb"
+        },
+        {
+          "name": "The private tea library",
+          "purpose": "A room for one reader and an occasional guest.",
+          "model": "models/r2/park-hyatt-kyoto/formal-2.glb"
+        },
+        {
+          "name": "The analog writing retreat",
+          "purpose": "A home office designed for paper, a laptop that can close, and long concentration.",
+          "model": "models/r2/park-hyatt-kyoto/formal-3.glb"
+        }
+      ],
+      "dining": [
+        {
+          "name": "The quiet oval",
+          "purpose": "A measured six-seat setting whose quality comes from proportion.",
+          "model": "models/r2/park-hyatt-kyoto/dining-1.glb"
+        },
+        {
+          "name": "The tea-to-supper circle",
+          "purpose": "An informal table that moves naturally from tea to an evening meal.",
+          "model": "models/r2/park-hyatt-kyoto/dining-2.glb"
+        },
+        {
+          "name": "The intimate long table",
+          "purpose": "A dining room for a small, deliberate evening gathering.",
+          "model": "models/r2/park-hyatt-kyoto/dining-3.glb"
+        }
+      ],
+      "great": [
+        {
+          "name": "The room beside the view",
+          "purpose": "Occupied space sits beside an open visual axis.",
+          "model": "models/r2/park-hyatt-kyoto/great-1.glb"
+        },
+        {
+          "name": "The layered evening retreat",
+          "purpose": "The room reveals itself through overlapping edges and light.",
+          "model": "models/r2/park-hyatt-kyoto/great-2.glb"
+        },
+        {
+          "name": "The solitary and the shared",
+          "purpose": "One person can read while the others converse without the room splitting apart.",
+          "model": "models/r2/park-hyatt-kyoto/great-3.glb"
+        }
+      ],
+      "corridor": [
+        {
+          "name": "The silent left wall",
+          "purpose": "A long blank surface gives the eye somewhere to rest.",
+          "model": "models/r2/park-hyatt-kyoto/corridor-1.glb"
+        },
+        {
+          "name": "The shadow between planes",
+          "purpose": "Depth is made with a few thin edges rather than decoration.",
+          "model": "models/r2/park-hyatt-kyoto/corridor-2.glb"
+        },
+        {
+          "name": "The continuous pause",
+          "purpose": "The corridor becomes the calm interval between active rooms.",
+          "model": "models/r2/park-hyatt-kyoto/corridor-3.glb"
+        }
+      ]
+    },
+    "presets": [
+      {
+        "title": "The discreet working retreat",
+        "film": null,
+        "poster": "previews/r2/park-hyatt-kyoto-1.png"
+      },
+      {
+        "title": "The house at tea time",
+        "film": null,
+        "poster": "previews/r2/park-hyatt-kyoto-2.png"
+      },
+      {
+        "title": "A place to write and withdraw",
+        "film": null,
+        "poster": "previews/r2/park-hyatt-kyoto-3.png"
+      }
+    ],
+    "views": {
+      "entry": {
+        "position": [
+          0.08500000089406967,
+          1.6200000047683716,
+          -0.2199999988079071
+        ],
+        "look": [
+          0.18230107426643372,
+          1.549235463142395,
+          -4.2181901931762695
+        ]
+      },
+      "formal": {
+        "position": [
+          1.5700000524520874,
+          1.6200000047683716,
+          -0.7599999904632568
+        ],
+        "look": [
+          5.119428634643555,
+          0.7595323324203491,
+          0.8713034391403198
+        ]
+      },
+      "dining": {
+        "position": [
+          -3.3153936862945557,
+          1.619999885559082,
+          -1.7799999713897705
+        ],
+        "look": [
+          -1.9690896272659302,
+          0.7675725221633911,
+          1.8889002799987793
+        ]
+      },
+      "hallway": {
+        "position": [
+          0.25,
+          1.6200000047683716,
+          -10.800000190734863
+        ],
+        "look": [
+          0.25,
+          1.505760908126831,
+          -14.798368453979492
+        ]
+      },
+      "great": {
+        "position": [
+          -6.417599678039551,
+          1.6200000047683716,
+          -12.328319549560547
+        ],
+        "look": [
+          -2.6131529808044434,
+          1.1374562978744507,
+          -13.465568542480469
+        ]
+      }
+    },
+    "gallery": "Revisions.html"
+  }
+]
