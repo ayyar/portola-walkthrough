@@ -1,0 +1,107 @@
+{
+  "wood": {
+    "asset": "Wood048",
+    "source": "https://ambientcg.com/view?id=Wood048",
+    "license": "CC0-1.0",
+    "license_url": "https://docs.ambientcg.com/license/",
+    "archive_sha256": "e2e8e566eea583c426e0c63c648d53191e4d63e7ceb69470005ff42ac2eb1017",
+    "maps": {
+      "Color": {
+        "file": "wood-Color.jpg",
+        "sha256": "a955ea18c20f1f82c46c02e1b58d0f766d7e857817ea65ea9005d13415e85fb4"
+      },
+      "NormalGL": {
+        "file": "wood-NormalGL.jpg",
+        "sha256": "5e7b323b39f22d61ea88030de6b6cb04908baa0a4f2d3948fefee202639511b7"
+      },
+      "Roughness": {
+        "file": "wood-Roughness.jpg",
+        "sha256": "0f84eb36390cc85425a0e7d86b3cb51f5913617a3541f0e03bd74a5b932986ef"
+      }
+    }
+  },
+  "fabric": {
+    "asset": "Fabric031",
+    "source": "https://ambientcg.com/view?id=Fabric031",
+    "license": "CC0-1.0",
+    "license_url": "https://docs.ambientcg.com/license/",
+    "archive_sha256": "66a14ac501a3c238be3fca856415fc02a9e6e061478632fb597d14df8d003b92",
+    "maps": {
+      "Color": {
+        "file": "fabric-Color.jpg",
+        "sha256": "58366ce5a31c5fac7674536d29f4a56b8ae1281f632e884266ff2b79fac0ac5f"
+      },
+      "NormalGL": {
+        "file": "fabric-NormalGL.jpg",
+        "sha256": "11f69f20189384f80da6e9a35fbc56bb04931e7dc380cdeb9c93e73e575ccfee"
+      },
+      "Roughness": {
+        "file": "fabric-Roughness.jpg",
+        "sha256": "e212026e97f325637f2149deb7ade03554a81ebbdcbbabc3ff0b2ca4b7fa7522"
+      }
+    }
+  },
+  "plaster": {
+    "asset": "Plaster004",
+    "source": "https://ambientcg.com/view?id=Plaster004",
+    "license": "CC0-1.0",
+    "license_url": "https://docs.ambientcg.com/license/",
+    "archive_sha256": "ac9fd63a9b1774c3912aed5feaceee61c8a552df9487929a2bc9618c6fd468cd",
+    "maps": {
+      "Color": {
+        "file": "plaster-Color.jpg",
+        "sha256": "ea7bcf4c5af54df095300caeb4179a601b9126d08fe38d273fe71075546919f2"
+      },
+      "NormalGL": {
+        "file": "plaster-NormalGL.jpg",
+        "sha256": "d4f7af819be607020c06c7ef70d659d0584430dd598e148f5f9ac18fd877c909"
+      },
+      "Roughness": {
+        "file": "plaster-Roughness.jpg",
+        "sha256": "4755ea52a42515be051976f6bcac0bab31a9417de864939b0ec1c83153cb1c8b"
+      }
+    }
+  },
+  "stone": {
+    "asset": "Marble012",
+    "source": "https://ambientcg.com/view?id=Marble012",
+    "license": "CC0-1.0",
+    "license_url": "https://docs.ambientcg.com/license/",
+    "archive_sha256": "b04384c6d49ce73baeb70db7ea4abfe9948fc9b74b9fd92c3766970662bf2c43",
+    "maps": {
+      "Color": {
+        "file": "stone-Color.jpg",
+        "sha256": "a34b55c889c6b3819d2c351b6409bfd0baf0a0a55b073441850627dfebcdcd1e"
+      },
+      "NormalGL": {
+        "file": "stone-NormalGL.jpg",
+        "sha256": "2e9a56525ffbb7e80854b19985a5c921f91192698ea337f4834192479ba0063b"
+      },
+      "Roughness": {
+        "file": "stone-Roughness.jpg",
+        "sha256": "f7afd636d6cca0b470549959c514976186df58ac1013016b6c3919910a6d3a04"
+      }
+    }
+  },
+  "leather": {
+    "asset": "Leather030",
+    "source": "https://ambientcg.com/view?id=Leather030",
+    "license": "CC0-1.0",
+    "license_url": "https://docs.ambientcg.com/license/",
+    "archive_sha256": "0cdd772843bcaefb15fcec99b49c8d6436ab2f1535f39bf3a00ae65bc1e2aa06",
+    "maps": {
+      "Color": {
+        "file": "leather-Color.jpg",
+        "sha256": "f9c37a23f64152c404d0ca33e84e6537e5ad7db3af0022b20d5aef559b865e8e"
+      },
+      "NormalGL": {
+        "file": "leather-NormalGL.jpg",
+        "sha256": "6c90ae49dd269d5fe87ce06e14bf0050e753de7225e6b18238d46b91a44fe8c8"
+      },
+      "Roughness": {
+        "file": "leather-Roughness.jpg",
+        "sha256": "c16587efdcab6c8288a26ba20577a17822bb90b78c3cd9cc663cb8dd04d8f0d1"
+      }
+    }
+  }
+}
