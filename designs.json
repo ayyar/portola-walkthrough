@@ -6,241 +6,10 @@
     "core": "models/r3/house_core.json"
   },
   {
-    "id": "four-seasons-kyoto",
-    "title": "Four Seasons Kyoto · Earlier study",
-    "subtitle": "Garden salon",
-    "model": "models/designs/four-seasons-kyoto.glb",
-    "film": "films/four-seasons-kyoto.mp4",
-    "poster": "previews/four-seasons-kyoto.png",
-    "views": {
-      "formal": {
-        "position": [
-          1.559999942779541,
-          1.5199999809265137,
-          1.2000000476837158
-        ],
-        "look": [
-          3.200000047683716,
-          1.100000023841858,
-          -0.8999999761581421
-        ]
-      },
-      "dining": {
-        "position": [
-          -3.599769353866577,
-          1.5799994468688965,
-          -1.6799845695495605
-        ],
-        "look": [
-          -2.4000096321105957,
-          0.9500032067298889,
-          0.25
-        ]
-      },
-      "hallway": {
-        "position": [
-          0.0,
-          1.5700000524520874,
-          -4.246461868286133
-        ],
-        "look": [
-          0.0,
-          1.511447787284851,
-          -13.001344680786133
-        ]
-      },
-      "great": {
-        "position": [
-          -2.7597079277038574,
-          1.5799989700317383,
-          -10.679720878601074
-        ],
-        "look": [
-          -4.099883556365967,
-          1.0000423192977905,
-          -13.399820327758789
-        ]
-      }
-    }
-  },
-  {
-    "id": "patina-osaka",
-    "title": "Patina Osaka · Earlier study",
-    "subtitle": "Earth, copper, and a sculptural canopy",
-    "model": "models/designs/patina-osaka.glb",
-    "film": "films/patina-osaka.mp4",
-    "poster": "previews/patina-osaka.png",
-    "views": {
-      "formal": {
-        "position": [
-          1.559999942779541,
-          1.5199999809265137,
-          1.2000000476837158
-        ],
-        "look": [
-          3.200000047683716,
-          1.100000023841858,
-          -0.8999999761581421
-        ]
-      },
-      "dining": {
-        "position": [
-          -3.599769353866577,
-          1.5799994468688965,
-          -1.6799845695495605
-        ],
-        "look": [
-          -2.4000096321105957,
-          0.9500032067298889,
-          0.25
-        ]
-      },
-      "hallway": {
-        "position": [
-          0.0,
-          1.5700000524520874,
-          -4.246461868286133
-        ],
-        "look": [
-          0.0,
-          1.511447787284851,
-          -13.001344680786133
-        ]
-      },
-      "great": {
-        "position": [
-          -2.3998513221740723,
-          1.579996943473816,
-          -10.919628143310547
-        ],
-        "look": [
-          -3.6999258995056152,
-          1.1000317335128784,
-          -13.499810218811035
-        ]
-      }
-    }
-  },
-  {
-    "id": "himeji-castle",
-    "title": "Himeji Castle · Earlier study",
-    "subtitle": "Timber, lime, and stillness",
-    "model": "models/designs/himeji-castle.glb",
-    "film": "films/himeji-castle.mp4",
-    "poster": "previews/himeji-castle.png",
-    "views": {
-      "formal": {
-        "position": [
-          1.559999942779541,
-          1.5199999809265137,
-          1.2000000476837158
-        ],
-        "look": [
-          3.200000047683716,
-          1.100000023841858,
-          -0.8999999761581421
-        ]
-      },
-      "dining": {
-        "position": [
-          -3.599769353866577,
-          1.5799994468688965,
-          -1.6799845695495605
-        ],
-        "look": [
-          -2.4000096321105957,
-          0.9500032067298889,
-          0.25
-        ]
-      },
-      "hallway": {
-        "position": [
-          0.0,
-          1.5700000524520874,
-          -4.246461868286133
-        ],
-        "look": [
-          0.0,
-          1.511447787284851,
-          -13.001344680786133
-        ]
-      },
-      "great": {
-        "position": [
-          -2.7597079277038574,
-          1.5799989700317383,
-          -10.679720878601074
-        ],
-        "look": [
-          -4.099883556365967,
-          1.0000423192977905,
-          -13.399820327758789
-        ]
-      }
-    }
-  },
-  {
-    "id": "park-hyatt-kyoto",
-    "title": "Park Hyatt Kyoto · Earlier study",
-    "subtitle": "Pale timber, intimate light",
-    "model": "models/designs/park-hyatt-kyoto.glb",
-    "film": "films/park-hyatt-kyoto.mp4",
-    "poster": "previews/park-hyatt-kyoto.png",
-    "views": {
-      "formal": {
-        "position": [
-          1.559999942779541,
-          1.5199999809265137,
-          1.2000000476837158
-        ],
-        "look": [
-          3.200000047683716,
-          1.100000023841858,
-          -0.8999999761581421
-        ]
-      },
-      "dining": {
-        "position": [
-          -3.599769353866577,
-          1.5799994468688965,
-          -1.6799845695495605
-        ],
-        "look": [
-          -2.4000096321105957,
-          0.9500032067298889,
-          0.25
-        ]
-      },
-      "hallway": {
-        "position": [
-          0.0,
-          1.5700000524520874,
-          -4.246461868286133
-        ],
-        "look": [
-          0.0,
-          1.511447787284851,
-          -13.001344680786133
-        ]
-      },
-      "great": {
-        "position": [
-          -2.7597079277038574,
-          1.5799989700317383,
-          -10.679720878601074
-        ],
-        "look": [
-          -4.099883556365967,
-          1.0000423192977905,
-          -13.399820327758789
-        ]
-      }
-    }
-  },
-  {
     "id": "four-seasons-kyoto-r3",
     "aliases": [
-      "four-seasons-kyoto-r2"
+      "four-seasons-kyoto-r2",
+      "four-seasons-kyoto"
     ],
     "title": "Four Seasons Kyoto · Revised rooms",
     "subtitle": "Hospitality shaped by a sequence of gardens, with seasonal change held inside a stable, generous framework.",
@@ -400,7 +169,8 @@
   {
     "id": "patina-osaka-r3",
     "aliases": [
-      "patina-osaka-r2"
+      "patina-osaka-r2",
+      "patina-osaka"
     ],
     "title": "Patina Osaka · Revised rooms",
     "subtitle": "Urban craft, exchange and adaptable use; rooms are places to make and gather, with earth, copper and evidence of the hand.",
@@ -560,7 +330,8 @@
   {
     "id": "himeji-castle-r3",
     "aliases": [
-      "himeji-castle-r2"
+      "himeji-castle-r2",
+      "himeji-castle"
     ],
     "title": "Himeji Castle · Revised rooms",
     "subtitle": "A domestic interpretation of defensive depth, structural clarity and white plaster against dark timber; ordered space without theatrical castle props.",
@@ -720,7 +491,8 @@
   {
     "id": "park-hyatt-kyoto-r3",
     "aliases": [
-      "park-hyatt-kyoto-r2"
+      "park-hyatt-kyoto-r2",
+      "park-hyatt-kyoto"
     ],
     "title": "Park Hyatt Kyoto · Revised rooms",
     "subtitle": "Layered depth, intimate light and deliberate emptiness; craft is perceived through edges, proportions and the way a room reveals itself.",
