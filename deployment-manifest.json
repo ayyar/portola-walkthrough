@@ -1,6 +1,6 @@
 {
   "revision": 7,
-  "bytes": 664890453,
+  "bytes": 664620612,
   "files": [
     "Architecture.html",
     "Revisions.html",
@@ -8,18 +8,18 @@
     "assets/index-CXp6-Lq8.js",
     "assets/record-film-Dbp2cU3i.js",
     "designs.json",
-    "films/r7/borrowed-garden-1-Web.mp4",
-    "films/r7/borrowed-garden-2-Web.mp4",
-    "films/r7/borrowed-garden-3-Web.mp4",
-    "films/r7/earthen-warmth-1-Web.mp4",
-    "films/r7/earthen-warmth-2-Web.mp4",
-    "films/r7/earthen-warmth-3-Web.mp4",
-    "films/r7/quiet-lanterns-1-Web.mp4",
-    "films/r7/quiet-lanterns-2-Web.mp4",
-    "films/r7/quiet-lanterns-3-Web.mp4",
-    "films/r7/timber-and-stone-1-Web.mp4",
-    "films/r7/timber-and-stone-2-Web.mp4",
-    "films/r7/timber-and-stone-3-Web.mp4",
+    "films/r7/borrowed-garden-1-Gemini-178acc48.mp4",
+    "films/r7/borrowed-garden-2-Gemini-67268f1f.mp4",
+    "films/r7/borrowed-garden-3-Gemini-70c6ceac.mp4",
+    "films/r7/earthen-warmth-1-Gemini-de1c5270.mp4",
+    "films/r7/earthen-warmth-2-Gemini-18619f94.mp4",
+    "films/r7/earthen-warmth-3-Gemini-fdac067b.mp4",
+    "films/r7/quiet-lanterns-1-Gemini-f6ccbe15.mp4",
+    "films/r7/quiet-lanterns-2-Gemini-6ee4bcc0.mp4",
+    "films/r7/quiet-lanterns-3-Gemini-7b38c495.mp4",
+    "films/r7/timber-and-stone-1-Gemini-940520a1.mp4",
+    "films/r7/timber-and-stone-2-Gemini-83de64ae.mp4",
+    "films/r7/timber-and-stone-3-Gemini-33796658.mp4",
     "index.html",
     "ma-garden/Design-Guide.md",
     "ma-garden/index.html",
@@ -206,5 +206,11 @@
   "room_modules": 48,
   "material_maps": 15,
   "source_branch": "codex/ma-all-studies-r7",
-  "public_url": "https://ayyar.github.io/portola-walkthrough/"
+  "public_url": "https://ayyar.github.io/portola-walkthrough/",
+  "music": {
+    "provider": "Gemini API",
+    "model": "lyria-3.5",
+    "distinct_scores": 4,
+    "scored_films": 12
+  }
 }

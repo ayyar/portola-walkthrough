@@ -94,7 +94,7 @@
     "presets": [
       {
         "title": "The garden scholar",
-        "film": "films/r7/borrowed-garden-1-Web.mp4",
+        "film": "films/r7/borrowed-garden-1-Gemini-178acc48.mp4",
         "poster": "previews/r7/borrowed-garden-1-entrance.png",
         "views": {
           "sofa": {
@@ -127,7 +127,7 @@
       },
       {
         "title": "An afternoon of hospitality",
-        "film": "films/r7/borrowed-garden-2-Web.mp4",
+        "film": "films/r7/borrowed-garden-2-Gemini-67268f1f.mp4",
         "poster": "previews/r7/borrowed-garden-2-entrance.png",
         "views": {
           "sofa": {
@@ -160,7 +160,7 @@
       },
       {
         "title": "Music after the rain",
-        "film": "films/r7/borrowed-garden-3-Web.mp4",
+        "film": "films/r7/borrowed-garden-3-Gemini-70c6ceac.mp4",
         "poster": "previews/r7/borrowed-garden-3-entrance.png",
         "views": {
           "sofa": {
@@ -369,7 +369,7 @@
     "presets": [
       {
         "title": "The working atelier",
-        "film": "films/r7/earthen-warmth-1-Web.mp4",
+        "film": "films/r7/earthen-warmth-1-Gemini-de1c5270.mp4",
         "poster": "previews/r7/earthen-warmth-1-entrance.png",
         "views": {
           "sofa": {
@@ -402,7 +402,7 @@
       },
       {
         "title": "The city after dark",
-        "film": "films/r7/earthen-warmth-2-Web.mp4",
+        "film": "films/r7/earthen-warmth-2-Gemini-18619f94.mp4",
         "poster": "previews/r7/earthen-warmth-2-entrance.png",
         "views": {
           "sofa": {
@@ -435,7 +435,7 @@
       },
       {
         "title": "An open house for makers",
-        "film": "films/r7/earthen-warmth-3-Web.mp4",
+        "film": "films/r7/earthen-warmth-3-Gemini-fdac067b.mp4",
         "poster": "previews/r7/earthen-warmth-3-entrance.png",
         "views": {
           "sofa": {
@@ -644,7 +644,7 @@
     "presets": [
       {
         "title": "The strategist at home",
-        "film": "films/r7/timber-and-stone-1-Web.mp4",
+        "film": "films/r7/timber-and-stone-1-Gemini-940520a1.mp4",
         "poster": "previews/r7/timber-and-stone-1-entrance.png",
         "views": {
           "sofa": {
@@ -677,7 +677,7 @@
       },
       {
         "title": "An archive of quiet objects",
-        "film": "films/r7/timber-and-stone-2-Web.mp4",
+        "film": "films/r7/timber-and-stone-2-Gemini-83de64ae.mp4",
         "poster": "previews/r7/timber-and-stone-2-entrance.png",
         "views": {
           "sofa": {
@@ -710,7 +710,7 @@
       },
       {
         "title": "A house for deliberate conversation",
-        "film": "films/r7/timber-and-stone-3-Web.mp4",
+        "film": "films/r7/timber-and-stone-3-Gemini-33796658.mp4",
         "poster": "previews/r7/timber-and-stone-3-entrance.png",
         "views": {
           "sofa": {
@@ -919,7 +919,7 @@
     "presets": [
       {
         "title": "The discreet working retreat",
-        "film": "films/r7/quiet-lanterns-1-Web.mp4",
+        "film": "films/r7/quiet-lanterns-1-Gemini-f6ccbe15.mp4",
         "poster": "previews/r7/quiet-lanterns-1-entrance.png",
         "views": {
           "sofa": {
@@ -952,7 +952,7 @@
       },
       {
         "title": "The house at tea time",
-        "film": "films/r7/quiet-lanterns-2-Web.mp4",
+        "film": "films/r7/quiet-lanterns-2-Gemini-6ee4bcc0.mp4",
         "poster": "previews/r7/quiet-lanterns-2-entrance.png",
         "views": {
           "sofa": {
@@ -985,7 +985,7 @@
       },
       {
         "title": "A place to write and withdraw",
-        "film": "films/r7/quiet-lanterns-3-Web.mp4",
+        "film": "films/r7/quiet-lanterns-3-Gemini-7b38c495.mp4",
         "poster": "previews/r7/quiet-lanterns-3-entrance.png",
         "views": {
           "sofa": {
