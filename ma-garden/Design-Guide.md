@@ -1,6 +1,6 @@
 # Ma Garden — a house for looking out
 
-One focused Japanese-inspired design pass, developed from Park Hyatt Kyoto / Set 1 with the latest R6 architecture and fixture orientation. The emphasis is on useful emptiness, quiet material differences and the changing garden. This is an independent proposal, not a claim to reproduce a particular designer's work.
+One focused Japanese-inspired design pass, developed from Quiet Lanterns / Set 1 with the latest R6 architecture and fixture orientation. The emphasis is on useful emptiness, quiet material differences and the changing garden. This is an independent proposal, not a claim to reproduce a particular designer's work.
 
 ## Arrival and the long hall
 

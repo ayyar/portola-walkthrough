@@ -6,17 +6,19 @@
     "core": "models/r7/house_core.json"
   },
   {
-    "id": "four-seasons-kyoto-r7",
+    "id": "borrowed-garden",
     "aliases": [
       "four-seasons-kyoto-r2",
       "four-seasons-kyoto-r3",
       "four-seasons-kyoto-r4",
       "four-seasons-kyoto-r5",
       "four-seasons-kyoto-r6",
-      "four-seasons-kyoto"
+      "four-seasons-kyoto",
+      "four-seasons-kyoto-r7",
+      "borrowed-garden-r7"
     ],
-    "title": "Four Seasons Kyoto",
-    "subtitle": "Hospitality shaped by a sequence of gardens, with seasonal change held inside a stable, generous framework.",
+    "title": "Borrowed Garden",
+    "subtitle": "Seasonal greenery, generous hospitality and rooms that borrow their atmosphere from the garden.",
     "model": "models/r7/base-house.glb",
     "core": "models/r7/house_core.json",
     "rooms": {
@@ -24,76 +26,76 @@
         {
           "name": "The garden correspondent",
           "purpose": "A home office for writing, calls and sustained individual work.",
-          "model": "models/r7/four-seasons-kyoto/formal-1.glb"
+          "model": "models/r7/borrowed-garden/formal-1.glb"
         },
         {
           "name": "The seasonal lending room",
           "purpose": "A library where a host and guest read or exchange a book.",
-          "model": "models/r7/four-seasons-kyoto/formal-2.glb"
+          "model": "models/r7/borrowed-garden/formal-2.glb"
         },
         {
           "name": "Rain-listening salon",
           "purpose": "A room for records, tea and long pauses between conversations.",
-          "model": "models/r7/four-seasons-kyoto/formal-3.glb"
+          "model": "models/r7/borrowed-garden/formal-3.glb"
         }
       ],
       "dining": [
         {
           "name": "Six equals around a garden table",
           "purpose": "Unhurried daily meals without a privileged head seat.",
-          "model": "models/r7/four-seasons-kyoto/dining-1.glb"
+          "model": "models/r7/borrowed-garden/dining-1.glb"
         },
         {
           "name": "The seasonal feast",
           "purpose": "A more ceremonial setting for hosting without a formal head-of-table hierarchy.",
-          "model": "models/r7/four-seasons-kyoto/dining-2.glb"
+          "model": "models/r7/borrowed-garden/dining-2.glb"
         },
         {
           "name": "Breakfast in filtered light",
           "purpose": "A bright, tactile room that begins the day gently.",
-          "model": "models/r7/four-seasons-kyoto/dining-3.glb"
+          "model": "models/r7/borrowed-garden/dining-3.glb"
         }
       ],
       "great": [
         {
           "name": "The borrowed garden",
           "purpose": "Low seating gives the garden and fireplace a clear place in the room.",
-          "model": "models/r7/four-seasons-kyoto/great-1.glb"
+          "model": "models/r7/borrowed-garden/great-1.glb"
         },
         {
           "name": "The host and the arriving guest",
           "purpose": "Low seating gives the garden and fireplace a clear place in the room.",
-          "model": "models/r7/four-seasons-kyoto/great-2.glb"
+          "model": "models/r7/borrowed-garden/great-2.glb"
         },
         {
           "name": "A sheltered evening by the hearth",
           "purpose": "Low seating gives the garden and fireplace a clear place in the room.",
-          "model": "models/r7/four-seasons-kyoto/great-3.glb"
+          "model": "models/r7/borrowed-garden/great-3.glb"
         }
       ],
       "corridor": [
         {
           "name": "Garden wall and an ivory pause",
           "purpose": "A shallow arrival seat, one softly lit craft panel and a small textile farther along the hall.",
-          "model": "models/r7/four-seasons-kyoto/corridor-1.glb"
+          "model": "models/r7/borrowed-garden/corridor-1.glb"
         },
         {
           "name": "Filtered light across a quiet garden wall",
           "purpose": "A shallow arrival seat, one softly lit craft panel and a small textile farther along the hall.",
-          "model": "models/r7/four-seasons-kyoto/corridor-2.glb"
+          "model": "models/r7/borrowed-garden/corridor-2.glb"
         },
         {
           "name": "A pale threshold and one green interval",
           "purpose": "A shallow arrival seat, one softly lit craft panel and a small textile farther along the hall.",
-          "model": "models/r7/four-seasons-kyoto/corridor-3.glb"
+          "model": "models/r7/borrowed-garden/corridor-3.glb"
         }
       ]
     },
     "presets": [
       {
         "title": "The garden scholar",
-        "film": "films/r7/four-seasons-kyoto-1-Web.mp4",
-        "poster": "previews/r7/four-seasons-kyoto-1-entrance.png",
+        "film": "films/r7/borrowed-garden-1-Web.mp4",
+        "poster": "previews/r7/borrowed-garden-1-entrance.png",
         "views": {
           "sofa": {
             "position": [
@@ -125,8 +127,8 @@
       },
       {
         "title": "An afternoon of hospitality",
-        "film": "films/r7/four-seasons-kyoto-2-Web.mp4",
-        "poster": "previews/r7/four-seasons-kyoto-2-entrance.png",
+        "film": "films/r7/borrowed-garden-2-Web.mp4",
+        "poster": "previews/r7/borrowed-garden-2-entrance.png",
         "views": {
           "sofa": {
             "position": [
@@ -158,8 +160,8 @@
       },
       {
         "title": "Music after the rain",
-        "film": "films/r7/four-seasons-kyoto-3-Web.mp4",
-        "poster": "previews/r7/four-seasons-kyoto-3-entrance.png",
+        "film": "films/r7/borrowed-garden-3-Web.mp4",
+        "poster": "previews/r7/borrowed-garden-3-entrance.png",
         "views": {
           "sofa": {
             "position": [
@@ -279,17 +281,19 @@
     "gallery": "Revisions.html"
   },
   {
-    "id": "patina-osaka-r7",
+    "id": "earthen-warmth",
     "aliases": [
       "patina-osaka-r2",
       "patina-osaka-r3",
       "patina-osaka-r4",
       "patina-osaka-r5",
       "patina-osaka-r6",
-      "patina-osaka"
+      "patina-osaka",
+      "patina-osaka-r7",
+      "earthen-warmth-r7"
     ],
-    "title": "Patina Osaka",
-    "subtitle": "Urban craft, exchange and adaptable use; rooms are places to make and gather, with earth, copper and evidence of the hand.",
+    "title": "Earthen Warmth",
+    "subtitle": "Clay tones, warm timber and tactile surfaces that become richer through daily use.",
     "model": "models/r7/base-house.glb",
     "core": "models/r7/house_core.json",
     "rooms": {
@@ -297,76 +301,76 @@
         {
           "name": "The material atelier",
           "purpose": "A home studio for sketching, material samples and practical work.",
-          "model": "models/r7/patina-osaka/formal-1.glb"
+          "model": "models/r7/earthen-warmth/formal-1.glb"
         },
         {
           "name": "The record exchange",
           "purpose": "A compact room for two friends to listen, talk and exchange records.",
-          "model": "models/r7/patina-osaka/formal-2.glb"
+          "model": "models/r7/earthen-warmth/formal-2.glb"
         },
         {
           "name": "The creative call studio",
           "purpose": "A video-call office that can host an informal working conversation.",
-          "model": "models/r7/patina-osaka/formal-3.glb"
+          "model": "models/r7/earthen-warmth/formal-3.glb"
         }
       ],
       "dining": [
         {
           "name": "The makers table",
           "purpose": "A table that supports shared dishes, drawing and everyday mess.",
-          "model": "models/r7/patina-osaka/dining-1.glb"
+          "model": "models/r7/earthen-warmth/dining-1.glb"
         },
         {
           "name": "The late supper club",
           "purpose": "A close evening table with stronger social focus.",
-          "model": "models/r7/patina-osaka/dining-2.glb"
+          "model": "models/r7/earthen-warmth/dining-2.glb"
         },
         {
           "name": "The shared tasting square",
           "purpose": "A dining room for passing dishes in several directions.",
-          "model": "models/r7/patina-osaka/dining-3.glb"
+          "model": "models/r7/earthen-warmth/dining-3.glb"
         }
       ],
       "great": [
         {
           "name": "The social island",
           "purpose": "Low seating gives the garden and fireplace a clear place in the room.",
-          "model": "models/r7/patina-osaka/great-1.glb"
+          "model": "models/r7/earthen-warmth/great-1.glb"
         },
         {
           "name": "The nocturnal conversation pit",
           "purpose": "Low seating gives the garden and fireplace a clear place in the room.",
-          "model": "models/r7/patina-osaka/great-2.glb"
+          "model": "models/r7/earthen-warmth/great-2.glb"
         },
         {
           "name": "The open critique room",
           "purpose": "Low seating gives the garden and fireplace a clear place in the room.",
-          "model": "models/r7/patina-osaka/great-3.glb"
+          "model": "models/r7/earthen-warmth/great-3.glb"
         }
       ],
       "corridor": [
         {
           "name": "Clay gallery and a bronze reply",
           "purpose": "A shallow arrival seat, one softly lit craft panel and a small textile farther along the hall.",
-          "model": "models/r7/patina-osaka/corridor-1.glb"
+          "model": "models/r7/earthen-warmth/corridor-1.glb"
         },
         {
           "name": "Evening atelier with a luminous recess",
           "purpose": "A shallow arrival seat, one softly lit craft panel and a small textile farther along the hall.",
-          "model": "models/r7/patina-osaka/corridor-2.glb"
+          "model": "models/r7/earthen-warmth/corridor-2.glb"
         },
         {
           "name": "The maker wall across from quiet plaster",
           "purpose": "A shallow arrival seat, one softly lit craft panel and a small textile farther along the hall.",
-          "model": "models/r7/patina-osaka/corridor-3.glb"
+          "model": "models/r7/earthen-warmth/corridor-3.glb"
         }
       ]
     },
     "presets": [
       {
         "title": "The working atelier",
-        "film": "films/r7/patina-osaka-1-Web.mp4",
-        "poster": "previews/r7/patina-osaka-1-entrance.png",
+        "film": "films/r7/earthen-warmth-1-Web.mp4",
+        "poster": "previews/r7/earthen-warmth-1-entrance.png",
         "views": {
           "sofa": {
             "position": [
@@ -398,8 +402,8 @@
       },
       {
         "title": "The city after dark",
-        "film": "films/r7/patina-osaka-2-Web.mp4",
-        "poster": "previews/r7/patina-osaka-2-entrance.png",
+        "film": "films/r7/earthen-warmth-2-Web.mp4",
+        "poster": "previews/r7/earthen-warmth-2-entrance.png",
         "views": {
           "sofa": {
             "position": [
@@ -431,8 +435,8 @@
       },
       {
         "title": "An open house for makers",
-        "film": "films/r7/patina-osaka-3-Web.mp4",
-        "poster": "previews/r7/patina-osaka-3-entrance.png",
+        "film": "films/r7/earthen-warmth-3-Web.mp4",
+        "poster": "previews/r7/earthen-warmth-3-entrance.png",
         "views": {
           "sofa": {
             "position": [
@@ -552,17 +556,19 @@
     "gallery": "Revisions.html"
   },
   {
-    "id": "himeji-castle-r7",
+    "id": "timber-and-stone",
     "aliases": [
       "himeji-castle-r2",
       "himeji-castle-r3",
       "himeji-castle-r4",
       "himeji-castle-r5",
       "himeji-castle-r6",
-      "himeji-castle"
+      "himeji-castle",
+      "himeji-castle-r7",
+      "timber-and-stone-r7"
     ],
-    "title": "Himeji Castle",
-    "subtitle": "A domestic interpretation of defensive depth, structural clarity and white plaster against dark timber; ordered space without theatrical castle props.",
+    "title": "Timber & Stone",
+    "subtitle": "Clear timber structure, pale mineral walls and a measured rhythm of solid and open space.",
     "model": "models/r7/base-house.glb",
     "core": "models/r7/house_core.json",
     "rooms": {
@@ -570,76 +576,76 @@
         {
           "name": "The strategist study",
           "purpose": "A focused home office with a legible place for work and a calm arrival.",
-          "model": "models/r7/himeji-castle/formal-1.glb"
+          "model": "models/r7/timber-and-stone/formal-1.glb"
         },
         {
           "name": "The domestic archive",
           "purpose": "A room for examining a few books or objects with care.",
-          "model": "models/r7/himeji-castle/formal-2.glb"
+          "model": "models/r7/timber-and-stone/formal-2.glb"
         },
         {
           "name": "The room of considered debate",
           "purpose": "Two people can meet on equal terms without a desk separating host and visitor.",
-          "model": "models/r7/himeji-castle/formal-3.glb"
+          "model": "models/r7/timber-and-stone/formal-3.glb"
         }
       ],
       "dining": [
         {
           "name": "The household council",
           "purpose": "A clear six-place table for shared decisions and daily meals.",
-          "model": "models/r7/himeji-castle/dining-1.glb"
+          "model": "models/r7/timber-and-stone/dining-1.glb"
         },
         {
           "name": "The white chamber meal",
           "purpose": "A lighter, more intimate counterpoint to the dark archive.",
-          "model": "models/r7/himeji-castle/dining-2.glb"
+          "model": "models/r7/timber-and-stone/dining-2.glb"
         },
         {
           "name": "The hearthless refectory",
           "purpose": "A room whose warmth comes from use and material rather than ornament.",
-          "model": "models/r7/himeji-castle/dining-3.glb"
+          "model": "models/r7/timber-and-stone/dining-3.glb"
         }
       ],
       "great": [
         {
           "name": "The inhabited keep",
           "purpose": "Low seating gives the garden and fireplace a clear place in the room.",
-          "model": "models/r7/himeji-castle/great-1.glb"
+          "model": "models/r7/timber-and-stone/great-1.glb"
         },
         {
           "name": "The white lookout",
           "purpose": "Low seating gives the garden and fireplace a clear place in the room.",
-          "model": "models/r7/himeji-castle/great-2.glb"
+          "model": "models/r7/timber-and-stone/great-2.glb"
         },
         {
           "name": "The inner audience room",
           "purpose": "Low seating gives the garden and fireplace a clear place in the room.",
-          "model": "models/r7/himeji-castle/great-3.glb"
+          "model": "models/r7/timber-and-stone/great-3.glb"
         }
       ],
       "corridor": [
         {
           "name": "White walls with offset timber joints",
           "purpose": "A shallow arrival seat, one softly lit craft panel and a small textile farther along the hall.",
-          "model": "models/r7/himeji-castle/corridor-1.glb"
+          "model": "models/r7/timber-and-stone/corridor-1.glb"
         },
         {
           "name": "An open archive and an unmarked wall",
           "purpose": "A shallow arrival seat, one softly lit craft panel and a small textile farther along the hall.",
-          "model": "models/r7/himeji-castle/corridor-2.glb"
+          "model": "models/r7/timber-and-stone/corridor-2.glb"
         },
         {
           "name": "A timber pause inside a pale passage",
           "purpose": "A shallow arrival seat, one softly lit craft panel and a small textile farther along the hall.",
-          "model": "models/r7/himeji-castle/corridor-3.glb"
+          "model": "models/r7/timber-and-stone/corridor-3.glb"
         }
       ]
     },
     "presets": [
       {
         "title": "The strategist at home",
-        "film": "films/r7/himeji-castle-1-Web.mp4",
-        "poster": "previews/r7/himeji-castle-1-entrance.png",
+        "film": "films/r7/timber-and-stone-1-Web.mp4",
+        "poster": "previews/r7/timber-and-stone-1-entrance.png",
         "views": {
           "sofa": {
             "position": [
@@ -671,8 +677,8 @@
       },
       {
         "title": "An archive of quiet objects",
-        "film": "films/r7/himeji-castle-2-Web.mp4",
-        "poster": "previews/r7/himeji-castle-2-entrance.png",
+        "film": "films/r7/timber-and-stone-2-Web.mp4",
+        "poster": "previews/r7/timber-and-stone-2-entrance.png",
         "views": {
           "sofa": {
             "position": [
@@ -704,8 +710,8 @@
       },
       {
         "title": "A house for deliberate conversation",
-        "film": "films/r7/himeji-castle-3-Web.mp4",
-        "poster": "previews/r7/himeji-castle-3-entrance.png",
+        "film": "films/r7/timber-and-stone-3-Web.mp4",
+        "poster": "previews/r7/timber-and-stone-3-entrance.png",
         "views": {
           "sofa": {
             "position": [
@@ -825,17 +831,19 @@
     "gallery": "Revisions.html"
   },
   {
-    "id": "park-hyatt-kyoto-r7",
+    "id": "quiet-lanterns",
     "aliases": [
       "park-hyatt-kyoto-r2",
       "park-hyatt-kyoto-r3",
       "park-hyatt-kyoto-r4",
       "park-hyatt-kyoto-r5",
       "park-hyatt-kyoto-r6",
-      "park-hyatt-kyoto"
+      "park-hyatt-kyoto",
+      "park-hyatt-kyoto-r7",
+      "quiet-lanterns-r7"
     ],
-    "title": "Park Hyatt Kyoto",
-    "subtitle": "Layered depth, intimate light and deliberate emptiness; craft is perceived through edges, proportions and the way a room reveals itself.",
+    "title": "Quiet Lanterns",
+    "subtitle": "Soft paper light, dark timber and intimate places to sit between the hearth and garden.",
     "model": "models/r7/base-house.glb",
     "core": "models/r7/house_core.json",
     "rooms": {
@@ -843,76 +851,76 @@
         {
           "name": "The discreet video office",
           "purpose": "An everyday Zoom room with a composed background and no corporate reception effect.",
-          "model": "models/r7/park-hyatt-kyoto/formal-1.glb"
+          "model": "models/r7/quiet-lanterns/formal-1.glb"
         },
         {
           "name": "The private tea library",
           "purpose": "A room for one reader and an occasional guest.",
-          "model": "models/r7/park-hyatt-kyoto/formal-2.glb"
+          "model": "models/r7/quiet-lanterns/formal-2.glb"
         },
         {
           "name": "The analog writing retreat",
           "purpose": "A home office designed for paper, a laptop that can close, and long concentration.",
-          "model": "models/r7/park-hyatt-kyoto/formal-3.glb"
+          "model": "models/r7/quiet-lanterns/formal-3.glb"
         }
       ],
       "dining": [
         {
           "name": "The quiet oval",
           "purpose": "A measured six-seat setting whose quality comes from proportion.",
-          "model": "models/r7/park-hyatt-kyoto/dining-1.glb"
+          "model": "models/r7/quiet-lanterns/dining-1.glb"
         },
         {
           "name": "The tea-to-supper circle",
           "purpose": "An informal table that moves naturally from tea to an evening meal.",
-          "model": "models/r7/park-hyatt-kyoto/dining-2.glb"
+          "model": "models/r7/quiet-lanterns/dining-2.glb"
         },
         {
           "name": "The intimate long table",
           "purpose": "A dining room for a small, deliberate evening gathering.",
-          "model": "models/r7/park-hyatt-kyoto/dining-3.glb"
+          "model": "models/r7/quiet-lanterns/dining-3.glb"
         }
       ],
       "great": [
         {
           "name": "The room beside the view",
           "purpose": "Low seating gives the garden and fireplace a clear place in the room.",
-          "model": "models/r7/park-hyatt-kyoto/great-1.glb"
+          "model": "models/r7/quiet-lanterns/great-1.glb"
         },
         {
           "name": "The layered evening retreat",
           "purpose": "Low seating gives the garden and fireplace a clear place in the room.",
-          "model": "models/r7/park-hyatt-kyoto/great-2.glb"
+          "model": "models/r7/quiet-lanterns/great-2.glb"
         },
         {
           "name": "The solitary and the shared",
           "purpose": "Low seating gives the garden and fireplace a clear place in the room.",
-          "model": "models/r7/park-hyatt-kyoto/great-3.glb"
+          "model": "models/r7/quiet-lanterns/great-3.glb"
         }
       ],
       "corridor": [
         {
           "name": "Cedar light and a limestone counterwall",
           "purpose": "A shallow arrival seat, one softly lit craft panel and a small textile farther along the hall.",
-          "model": "models/r7/park-hyatt-kyoto/corridor-1.glb"
+          "model": "models/r7/quiet-lanterns/corridor-1.glb"
         },
         {
           "name": "A shadow wall held by warm stone",
           "purpose": "A shallow arrival seat, one softly lit craft panel and a small textile farther along the hall.",
-          "model": "models/r7/park-hyatt-kyoto/corridor-2.glb"
+          "model": "models/r7/quiet-lanterns/corridor-2.glb"
         },
         {
           "name": "A single fine screen in a pale threshold",
           "purpose": "A shallow arrival seat, one softly lit craft panel and a small textile farther along the hall.",
-          "model": "models/r7/park-hyatt-kyoto/corridor-3.glb"
+          "model": "models/r7/quiet-lanterns/corridor-3.glb"
         }
       ]
     },
     "presets": [
       {
         "title": "The discreet working retreat",
-        "film": "films/r7/park-hyatt-kyoto-1-Web.mp4",
-        "poster": "previews/r7/park-hyatt-kyoto-1-entrance.png",
+        "film": "films/r7/quiet-lanterns-1-Web.mp4",
+        "poster": "previews/r7/quiet-lanterns-1-entrance.png",
         "views": {
           "sofa": {
             "position": [
@@ -944,8 +952,8 @@
       },
       {
         "title": "The house at tea time",
-        "film": "films/r7/park-hyatt-kyoto-2-Web.mp4",
-        "poster": "previews/r7/park-hyatt-kyoto-2-entrance.png",
+        "film": "films/r7/quiet-lanterns-2-Web.mp4",
+        "poster": "previews/r7/quiet-lanterns-2-entrance.png",
         "views": {
           "sofa": {
             "position": [
@@ -977,8 +985,8 @@
       },
       {
         "title": "A place to write and withdraw",
-        "film": "films/r7/park-hyatt-kyoto-3-Web.mp4",
-        "poster": "previews/r7/park-hyatt-kyoto-3-entrance.png",
+        "film": "films/r7/quiet-lanterns-3-Web.mp4",
+        "poster": "previews/r7/quiet-lanterns-3-entrance.png",
         "views": {
           "sofa": {
             "position": [
