@@ -15,12 +15,13 @@
       "four-seasons-kyoto-r6",
       "four-seasons-kyoto",
       "four-seasons-kyoto-r7",
-      "borrowed-garden-r7"
+      "borrowed-garden-r7",
+      "borrowed-garden-r10"
     ],
     "title": "Borrowed Garden",
     "subtitle": "Seasonal greenery, generous hospitality and rooms that borrow their atmosphere from the garden.",
-    "model": "models/r7/base-house.glb",
-    "core": "models/r7/house_core.json",
+    "model": "models/r10/base-house.glb",
+    "core": "models/r10/house_core.json",
     "rooms": {
       "formal": [
         {
@@ -58,44 +59,44 @@
       ],
       "great": [
         {
-          "name": "The borrowed garden",
-          "purpose": "Low seating gives the garden and fireplace a clear place in the room.",
-          "model": "models/r7/borrowed-garden/great-1.glb"
+          "name": "The borrowed garden \u00b7 Slider + mirror",
+          "purpose": "Low seating gives the garden and fireplace a clear place in the room. Timber lift-and-slide door \u00b7 walnut-framed mirror.",
+          "model": "models/r10/borrowed-garden/great-1.glb"
         },
         {
-          "name": "The host and the arriving guest",
-          "purpose": "Low seating gives the garden and fireplace a clear place in the room.",
-          "model": "models/r7/borrowed-garden/great-2.glb"
+          "name": "The host and the arriving guest \u00b7 Pocket + TV",
+          "purpose": "Low seating gives the garden and fireplace a clear place in the room. Pocket garden door \u00b7 framed television.",
+          "model": "models/r10/borrowed-garden/great-2.glb"
         },
         {
-          "name": "A sheltered evening by the hearth",
-          "purpose": "Low seating gives the garden and fireplace a clear place in the room.",
-          "model": "models/r7/borrowed-garden/great-3.glb"
+          "name": "A sheltered evening by the hearth \u00b7 Folding + art",
+          "purpose": "Low seating gives the garden and fireplace a clear place in the room. Outward-folding garden door \u00b7 mineral artwork.",
+          "model": "models/r10/borrowed-garden/great-3.glb"
         }
       ],
       "corridor": [
         {
           "name": "Garden wall and an ivory pause",
-          "purpose": "A shallow arrival seat, one softly lit craft panel and a small textile farther along the hall.",
-          "model": "models/r7/borrowed-garden/corridor-1.glb"
+          "purpose": "Facing the garden: a smaller kumiko above the left arrival seat, then one textile beyond the arch. The right wall has quiet ceiling washes and clear door openings.",
+          "model": "models/r10/borrowed-garden/corridor-1.glb"
         },
         {
           "name": "Filtered light across a quiet garden wall",
-          "purpose": "A shallow arrival seat, one softly lit craft panel and a small textile farther along the hall.",
-          "model": "models/r7/borrowed-garden/corridor-2.glb"
+          "purpose": "Facing the garden: a smaller kumiko above the left arrival seat, then one textile beyond the arch. The right wall has quiet ceiling washes and clear door openings.",
+          "model": "models/r10/borrowed-garden/corridor-2.glb"
         },
         {
           "name": "A pale threshold and one green interval",
-          "purpose": "A shallow arrival seat, one softly lit craft panel and a small textile farther along the hall.",
-          "model": "models/r7/borrowed-garden/corridor-3.glb"
+          "purpose": "Facing the garden: a smaller kumiko above the left arrival seat, then one textile beyond the arch. The right wall has quiet ceiling washes and clear door openings.",
+          "model": "models/r10/borrowed-garden/corridor-3.glb"
         }
       ]
     },
     "presets": [
       {
         "title": "The garden scholar",
-        "film": "films/r7/borrowed-garden-1-Gemini-178acc48.mp4",
-        "poster": "previews/r7/borrowed-garden-1-entrance.png",
+        "film": "films/r10/borrowed-garden-1-19d84d7d.mp4",
+        "poster": "previews/r10/borrowed-garden-1-entrance.png",
         "views": {
           "sofa": {
             "position": [
@@ -117,18 +118,57 @@
               -14.25
             ],
             "look": [
-              -6.8,
-              1.18,
+              -6.85,
+              2.0,
               -13.31
             ],
             "seated": true
+          },
+          "corridor-reverse": {
+            "position": [
+              0.2,
+              1.65,
+              -14.2
+            ],
+            "look": [
+              -0.1,
+              1.5,
+              -4.5
+            ],
+            "seated": false
+          },
+          "fireplace": {
+            "position": [
+              -3.15,
+              1.18,
+              -13.05
+            ],
+            "look": [
+              -6.84,
+              1.88,
+              -13.31
+            ],
+            "seated": true
+          },
+          "rear-door": {
+            "position": [
+              -4.4,
+              1.45,
+              -12.9
+            ],
+            "look": [
+              -4.4,
+              1.2,
+              -17.2
+            ],
+            "seated": false
           }
         }
       },
       {
         "title": "An afternoon of hospitality",
-        "film": "films/r7/borrowed-garden-2-Gemini-67268f1f.mp4",
-        "poster": "previews/r7/borrowed-garden-2-entrance.png",
+        "film": "films/r10/borrowed-garden-2-1aaf3379.mp4",
+        "poster": "previews/r10/borrowed-garden-2-entrance.png",
         "views": {
           "sofa": {
             "position": [
@@ -150,18 +190,57 @@
               -14.149999618530273
             ],
             "look": [
-              -6.8,
-              1.18,
+              -6.85,
+              2.0,
               -13.31
             ],
             "seated": true
+          },
+          "corridor-reverse": {
+            "position": [
+              0.2,
+              1.65,
+              -14.2
+            ],
+            "look": [
+              -0.1,
+              1.5,
+              -4.5
+            ],
+            "seated": false
+          },
+          "fireplace": {
+            "position": [
+              -3.15,
+              1.18,
+              -13.05
+            ],
+            "look": [
+              -6.84,
+              1.88,
+              -13.31
+            ],
+            "seated": true
+          },
+          "rear-door": {
+            "position": [
+              -4.4,
+              1.45,
+              -12.9
+            ],
+            "look": [
+              -4.4,
+              1.2,
+              -17.2
+            ],
+            "seated": false
           }
         }
       },
       {
         "title": "Music after the rain",
-        "film": "films/r7/borrowed-garden-3-Gemini-70c6ceac.mp4",
-        "poster": "previews/r7/borrowed-garden-3-entrance.png",
+        "film": "films/r10/borrowed-garden-3-00ad5f8b.mp4",
+        "poster": "previews/r10/borrowed-garden-3-entrance.png",
         "views": {
           "sofa": {
             "position": [
@@ -183,11 +262,50 @@
               -14.25
             ],
             "look": [
-              -6.8,
-              1.18,
+              -6.85,
+              2.0,
               -13.31
             ],
             "seated": true
+          },
+          "corridor-reverse": {
+            "position": [
+              0.2,
+              1.65,
+              -14.2
+            ],
+            "look": [
+              -0.1,
+              1.5,
+              -4.5
+            ],
+            "seated": false
+          },
+          "fireplace": {
+            "position": [
+              -3.15,
+              1.18,
+              -13.05
+            ],
+            "look": [
+              -6.84,
+              1.88,
+              -13.31
+            ],
+            "seated": true
+          },
+          "rear-door": {
+            "position": [
+              -4.4,
+              1.45,
+              -12.9
+            ],
+            "look": [
+              -4.4,
+              1.2,
+              -17.2
+            ],
+            "seated": false
           }
         }
       }
@@ -278,7 +396,9 @@
         ]
       }
     },
-    "gallery": "Revisions.html"
+    "gallery": "Revisions.html",
+    "film": "films/r10/borrowed-garden-1-19d84d7d.mp4",
+    "poster": "previews/r10/borrowed-garden-1-entrance.png"
   },
   {
     "id": "earthen-warmth",
@@ -290,12 +410,13 @@
       "patina-osaka-r6",
       "patina-osaka",
       "patina-osaka-r7",
-      "earthen-warmth-r7"
+      "earthen-warmth-r7",
+      "earthen-warmth-r10"
     ],
     "title": "Earthen Warmth",
     "subtitle": "Clay tones, warm timber and tactile surfaces that become richer through daily use.",
-    "model": "models/r7/base-house.glb",
-    "core": "models/r7/house_core.json",
+    "model": "models/r10/base-house.glb",
+    "core": "models/r10/house_core.json",
     "rooms": {
       "formal": [
         {
@@ -333,44 +454,44 @@
       ],
       "great": [
         {
-          "name": "The social island",
-          "purpose": "Low seating gives the garden and fireplace a clear place in the room.",
-          "model": "models/r7/earthen-warmth/great-1.glb"
+          "name": "The social island \u00b7 Slider + mirror",
+          "purpose": "Low seating gives the garden and fireplace a clear place in the room. Timber lift-and-slide door \u00b7 walnut-framed mirror.",
+          "model": "models/r10/earthen-warmth/great-1.glb"
         },
         {
-          "name": "The nocturnal conversation pit",
-          "purpose": "Low seating gives the garden and fireplace a clear place in the room.",
-          "model": "models/r7/earthen-warmth/great-2.glb"
+          "name": "The nocturnal conversation pit \u00b7 Pocket + TV",
+          "purpose": "Low seating gives the garden and fireplace a clear place in the room. Pocket garden door \u00b7 framed television.",
+          "model": "models/r10/earthen-warmth/great-2.glb"
         },
         {
-          "name": "The open critique room",
-          "purpose": "Low seating gives the garden and fireplace a clear place in the room.",
-          "model": "models/r7/earthen-warmth/great-3.glb"
+          "name": "The open critique room \u00b7 Folding + art",
+          "purpose": "Low seating gives the garden and fireplace a clear place in the room. Outward-folding garden door \u00b7 mineral artwork.",
+          "model": "models/r10/earthen-warmth/great-3.glb"
         }
       ],
       "corridor": [
         {
           "name": "Clay gallery and a bronze reply",
-          "purpose": "A shallow arrival seat, one softly lit craft panel and a small textile farther along the hall.",
-          "model": "models/r7/earthen-warmth/corridor-1.glb"
+          "purpose": "Facing the garden: a smaller kumiko above the left arrival seat, then one textile beyond the arch. The right wall has quiet ceiling washes and clear door openings.",
+          "model": "models/r10/earthen-warmth/corridor-1.glb"
         },
         {
           "name": "Evening atelier with a luminous recess",
-          "purpose": "A shallow arrival seat, one softly lit craft panel and a small textile farther along the hall.",
-          "model": "models/r7/earthen-warmth/corridor-2.glb"
+          "purpose": "Facing the garden: a smaller kumiko above the left arrival seat, then one textile beyond the arch. The right wall has quiet ceiling washes and clear door openings.",
+          "model": "models/r10/earthen-warmth/corridor-2.glb"
         },
         {
           "name": "The maker wall across from quiet plaster",
-          "purpose": "A shallow arrival seat, one softly lit craft panel and a small textile farther along the hall.",
-          "model": "models/r7/earthen-warmth/corridor-3.glb"
+          "purpose": "Facing the garden: a smaller kumiko above the left arrival seat, then one textile beyond the arch. The right wall has quiet ceiling washes and clear door openings.",
+          "model": "models/r10/earthen-warmth/corridor-3.glb"
         }
       ]
     },
     "presets": [
       {
         "title": "The working atelier",
-        "film": "films/r7/earthen-warmth-1-Gemini-de1c5270.mp4",
-        "poster": "previews/r7/earthen-warmth-1-entrance.png",
+        "film": "films/r10/earthen-warmth-1-256cc024.mp4",
+        "poster": "previews/r10/earthen-warmth-1-entrance.png",
         "views": {
           "sofa": {
             "position": [
@@ -392,18 +513,57 @@
               -14.25
             ],
             "look": [
-              -6.8,
-              1.18,
+              -6.85,
+              2.0,
               -13.31
             ],
             "seated": true
+          },
+          "corridor-reverse": {
+            "position": [
+              0.2,
+              1.65,
+              -14.2
+            ],
+            "look": [
+              -0.1,
+              1.5,
+              -4.5
+            ],
+            "seated": false
+          },
+          "fireplace": {
+            "position": [
+              -3.15,
+              1.18,
+              -13.05
+            ],
+            "look": [
+              -6.84,
+              1.88,
+              -13.31
+            ],
+            "seated": true
+          },
+          "rear-door": {
+            "position": [
+              -4.4,
+              1.45,
+              -12.9
+            ],
+            "look": [
+              -4.4,
+              1.2,
+              -17.2
+            ],
+            "seated": false
           }
         }
       },
       {
         "title": "The city after dark",
-        "film": "films/r7/earthen-warmth-2-Gemini-18619f94.mp4",
-        "poster": "previews/r7/earthen-warmth-2-entrance.png",
+        "film": "films/r10/earthen-warmth-2-44bbe37b.mp4",
+        "poster": "previews/r10/earthen-warmth-2-entrance.png",
         "views": {
           "sofa": {
             "position": [
@@ -425,18 +585,57 @@
               -14.149999618530273
             ],
             "look": [
-              -6.8,
-              1.18,
+              -6.85,
+              2.0,
               -13.31
             ],
             "seated": true
+          },
+          "corridor-reverse": {
+            "position": [
+              0.2,
+              1.65,
+              -14.2
+            ],
+            "look": [
+              -0.1,
+              1.5,
+              -4.5
+            ],
+            "seated": false
+          },
+          "fireplace": {
+            "position": [
+              -3.15,
+              1.18,
+              -13.05
+            ],
+            "look": [
+              -6.84,
+              1.88,
+              -13.31
+            ],
+            "seated": true
+          },
+          "rear-door": {
+            "position": [
+              -4.4,
+              1.45,
+              -12.9
+            ],
+            "look": [
+              -4.4,
+              1.2,
+              -17.2
+            ],
+            "seated": false
           }
         }
       },
       {
         "title": "An open house for makers",
-        "film": "films/r7/earthen-warmth-3-Gemini-fdac067b.mp4",
-        "poster": "previews/r7/earthen-warmth-3-entrance.png",
+        "film": "films/r10/earthen-warmth-3-996c710c.mp4",
+        "poster": "previews/r10/earthen-warmth-3-entrance.png",
         "views": {
           "sofa": {
             "position": [
@@ -458,11 +657,50 @@
               -14.25
             ],
             "look": [
-              -6.8,
-              1.18,
+              -6.85,
+              2.0,
               -13.31
             ],
             "seated": true
+          },
+          "corridor-reverse": {
+            "position": [
+              0.2,
+              1.65,
+              -14.2
+            ],
+            "look": [
+              -0.1,
+              1.5,
+              -4.5
+            ],
+            "seated": false
+          },
+          "fireplace": {
+            "position": [
+              -3.15,
+              1.18,
+              -13.05
+            ],
+            "look": [
+              -6.84,
+              1.88,
+              -13.31
+            ],
+            "seated": true
+          },
+          "rear-door": {
+            "position": [
+              -4.4,
+              1.45,
+              -12.9
+            ],
+            "look": [
+              -4.4,
+              1.2,
+              -17.2
+            ],
+            "seated": false
           }
         }
       }
@@ -553,7 +791,9 @@
         ]
       }
     },
-    "gallery": "Revisions.html"
+    "gallery": "Revisions.html",
+    "film": "films/r10/earthen-warmth-1-256cc024.mp4",
+    "poster": "previews/r10/earthen-warmth-1-entrance.png"
   },
   {
     "id": "timber-and-stone",
@@ -565,12 +805,13 @@
       "himeji-castle-r6",
       "himeji-castle",
       "himeji-castle-r7",
-      "timber-and-stone-r7"
+      "timber-and-stone-r7",
+      "timber-and-stone-r10"
     ],
     "title": "Timber & Stone",
     "subtitle": "Clear timber structure, pale mineral walls and a measured rhythm of solid and open space.",
-    "model": "models/r7/base-house.glb",
-    "core": "models/r7/house_core.json",
+    "model": "models/r10/base-house.glb",
+    "core": "models/r10/house_core.json",
     "rooms": {
       "formal": [
         {
@@ -608,44 +849,44 @@
       ],
       "great": [
         {
-          "name": "The inhabited keep",
-          "purpose": "Low seating gives the garden and fireplace a clear place in the room.",
-          "model": "models/r7/timber-and-stone/great-1.glb"
+          "name": "The inhabited keep \u00b7 Slider + mirror",
+          "purpose": "Low seating gives the garden and fireplace a clear place in the room. Timber lift-and-slide door \u00b7 walnut-framed mirror.",
+          "model": "models/r10/timber-and-stone/great-1.glb"
         },
         {
-          "name": "The white lookout",
-          "purpose": "Low seating gives the garden and fireplace a clear place in the room.",
-          "model": "models/r7/timber-and-stone/great-2.glb"
+          "name": "The white lookout \u00b7 Pocket + TV",
+          "purpose": "Low seating gives the garden and fireplace a clear place in the room. Pocket garden door \u00b7 framed television.",
+          "model": "models/r10/timber-and-stone/great-2.glb"
         },
         {
-          "name": "The inner audience room",
-          "purpose": "Low seating gives the garden and fireplace a clear place in the room.",
-          "model": "models/r7/timber-and-stone/great-3.glb"
+          "name": "The inner audience room \u00b7 Folding + art",
+          "purpose": "Low seating gives the garden and fireplace a clear place in the room. Outward-folding garden door \u00b7 mineral artwork.",
+          "model": "models/r10/timber-and-stone/great-3.glb"
         }
       ],
       "corridor": [
         {
           "name": "White walls with offset timber joints",
-          "purpose": "A shallow arrival seat, one softly lit craft panel and a small textile farther along the hall.",
-          "model": "models/r7/timber-and-stone/corridor-1.glb"
+          "purpose": "Facing the garden: a smaller kumiko above the left arrival seat, then one textile beyond the arch. The right wall has quiet ceiling washes and clear door openings.",
+          "model": "models/r10/timber-and-stone/corridor-1.glb"
         },
         {
           "name": "An open archive and an unmarked wall",
-          "purpose": "A shallow arrival seat, one softly lit craft panel and a small textile farther along the hall.",
-          "model": "models/r7/timber-and-stone/corridor-2.glb"
+          "purpose": "Facing the garden: a smaller kumiko above the left arrival seat, then one textile beyond the arch. The right wall has quiet ceiling washes and clear door openings.",
+          "model": "models/r10/timber-and-stone/corridor-2.glb"
         },
         {
           "name": "A timber pause inside a pale passage",
-          "purpose": "A shallow arrival seat, one softly lit craft panel and a small textile farther along the hall.",
-          "model": "models/r7/timber-and-stone/corridor-3.glb"
+          "purpose": "Facing the garden: a smaller kumiko above the left arrival seat, then one textile beyond the arch. The right wall has quiet ceiling washes and clear door openings.",
+          "model": "models/r10/timber-and-stone/corridor-3.glb"
         }
       ]
     },
     "presets": [
       {
         "title": "The strategist at home",
-        "film": "films/r7/timber-and-stone-1-Gemini-940520a1.mp4",
-        "poster": "previews/r7/timber-and-stone-1-entrance.png",
+        "film": "films/r10/timber-and-stone-1-aaf2486b.mp4",
+        "poster": "previews/r10/timber-and-stone-1-entrance.png",
         "views": {
           "sofa": {
             "position": [
@@ -667,18 +908,57 @@
               -14.25
             ],
             "look": [
-              -6.8,
-              1.18,
+              -6.85,
+              2.0,
               -13.31
             ],
             "seated": true
+          },
+          "corridor-reverse": {
+            "position": [
+              0.2,
+              1.65,
+              -14.2
+            ],
+            "look": [
+              -0.1,
+              1.5,
+              -4.5
+            ],
+            "seated": false
+          },
+          "fireplace": {
+            "position": [
+              -3.15,
+              1.18,
+              -13.05
+            ],
+            "look": [
+              -6.84,
+              1.88,
+              -13.31
+            ],
+            "seated": true
+          },
+          "rear-door": {
+            "position": [
+              -4.4,
+              1.45,
+              -12.9
+            ],
+            "look": [
+              -4.4,
+              1.2,
+              -17.2
+            ],
+            "seated": false
           }
         }
       },
       {
         "title": "An archive of quiet objects",
-        "film": "films/r7/timber-and-stone-2-Gemini-83de64ae.mp4",
-        "poster": "previews/r7/timber-and-stone-2-entrance.png",
+        "film": "films/r10/timber-and-stone-2-d72f19cc.mp4",
+        "poster": "previews/r10/timber-and-stone-2-entrance.png",
         "views": {
           "sofa": {
             "position": [
@@ -700,18 +980,57 @@
               -14.149999618530273
             ],
             "look": [
-              -6.8,
-              1.18,
+              -6.85,
+              2.0,
               -13.31
             ],
             "seated": true
+          },
+          "corridor-reverse": {
+            "position": [
+              0.2,
+              1.65,
+              -14.2
+            ],
+            "look": [
+              -0.1,
+              1.5,
+              -4.5
+            ],
+            "seated": false
+          },
+          "fireplace": {
+            "position": [
+              -3.15,
+              1.18,
+              -13.05
+            ],
+            "look": [
+              -6.84,
+              1.88,
+              -13.31
+            ],
+            "seated": true
+          },
+          "rear-door": {
+            "position": [
+              -4.4,
+              1.45,
+              -12.9
+            ],
+            "look": [
+              -4.4,
+              1.2,
+              -17.2
+            ],
+            "seated": false
           }
         }
       },
       {
         "title": "A house for deliberate conversation",
-        "film": "films/r7/timber-and-stone-3-Gemini-33796658.mp4",
-        "poster": "previews/r7/timber-and-stone-3-entrance.png",
+        "film": "films/r10/timber-and-stone-3-3aa1f551.mp4",
+        "poster": "previews/r10/timber-and-stone-3-entrance.png",
         "views": {
           "sofa": {
             "position": [
@@ -733,11 +1052,50 @@
               -14.25
             ],
             "look": [
-              -6.8,
-              1.18,
+              -6.85,
+              2.0,
               -13.31
             ],
             "seated": true
+          },
+          "corridor-reverse": {
+            "position": [
+              0.2,
+              1.65,
+              -14.2
+            ],
+            "look": [
+              -0.1,
+              1.5,
+              -4.5
+            ],
+            "seated": false
+          },
+          "fireplace": {
+            "position": [
+              -3.15,
+              1.18,
+              -13.05
+            ],
+            "look": [
+              -6.84,
+              1.88,
+              -13.31
+            ],
+            "seated": true
+          },
+          "rear-door": {
+            "position": [
+              -4.4,
+              1.45,
+              -12.9
+            ],
+            "look": [
+              -4.4,
+              1.2,
+              -17.2
+            ],
+            "seated": false
           }
         }
       }
@@ -828,7 +1186,9 @@
         ]
       }
     },
-    "gallery": "Revisions.html"
+    "gallery": "Revisions.html",
+    "film": "films/r10/timber-and-stone-1-aaf2486b.mp4",
+    "poster": "previews/r10/timber-and-stone-1-entrance.png"
   },
   {
     "id": "quiet-lanterns",
@@ -840,12 +1200,13 @@
       "park-hyatt-kyoto-r6",
       "park-hyatt-kyoto",
       "park-hyatt-kyoto-r7",
-      "quiet-lanterns-r7"
+      "quiet-lanterns-r7",
+      "quiet-lanterns-r10"
     ],
     "title": "Quiet Lanterns",
     "subtitle": "Soft paper light, dark timber and intimate places to sit between the hearth and garden.",
-    "model": "models/r7/base-house.glb",
-    "core": "models/r7/house_core.json",
+    "model": "models/r10/base-house.glb",
+    "core": "models/r10/house_core.json",
     "rooms": {
       "formal": [
         {
@@ -883,44 +1244,44 @@
       ],
       "great": [
         {
-          "name": "The room beside the view",
-          "purpose": "Low seating gives the garden and fireplace a clear place in the room.",
-          "model": "models/r7/quiet-lanterns/great-1.glb"
+          "name": "The room beside the view \u00b7 Slider + mirror",
+          "purpose": "Low seating gives the garden and fireplace a clear place in the room. Timber lift-and-slide door \u00b7 walnut-framed mirror.",
+          "model": "models/r10/quiet-lanterns/great-1.glb"
         },
         {
-          "name": "The layered evening retreat",
-          "purpose": "Low seating gives the garden and fireplace a clear place in the room.",
-          "model": "models/r7/quiet-lanterns/great-2.glb"
+          "name": "The layered evening retreat \u00b7 Pocket + TV",
+          "purpose": "Low seating gives the garden and fireplace a clear place in the room. Pocket garden door \u00b7 framed television.",
+          "model": "models/r10/quiet-lanterns/great-2.glb"
         },
         {
-          "name": "The solitary and the shared",
-          "purpose": "Low seating gives the garden and fireplace a clear place in the room.",
-          "model": "models/r7/quiet-lanterns/great-3.glb"
+          "name": "The solitary and the shared \u00b7 Folding + art",
+          "purpose": "Low seating gives the garden and fireplace a clear place in the room. Outward-folding garden door \u00b7 mineral artwork.",
+          "model": "models/r10/quiet-lanterns/great-3.glb"
         }
       ],
       "corridor": [
         {
           "name": "Cedar light and a limestone counterwall",
-          "purpose": "A shallow arrival seat, one softly lit craft panel and a small textile farther along the hall.",
-          "model": "models/r7/quiet-lanterns/corridor-1.glb"
+          "purpose": "Facing the garden: a smaller kumiko above the left arrival seat, then one textile beyond the arch. The right wall has quiet ceiling washes and clear door openings.",
+          "model": "models/r10/quiet-lanterns/corridor-1.glb"
         },
         {
           "name": "A shadow wall held by warm stone",
-          "purpose": "A shallow arrival seat, one softly lit craft panel and a small textile farther along the hall.",
-          "model": "models/r7/quiet-lanterns/corridor-2.glb"
+          "purpose": "Facing the garden: a smaller kumiko above the left arrival seat, then one textile beyond the arch. The right wall has quiet ceiling washes and clear door openings.",
+          "model": "models/r10/quiet-lanterns/corridor-2.glb"
         },
         {
           "name": "A single fine screen in a pale threshold",
-          "purpose": "A shallow arrival seat, one softly lit craft panel and a small textile farther along the hall.",
-          "model": "models/r7/quiet-lanterns/corridor-3.glb"
+          "purpose": "Facing the garden: a smaller kumiko above the left arrival seat, then one textile beyond the arch. The right wall has quiet ceiling washes and clear door openings.",
+          "model": "models/r10/quiet-lanterns/corridor-3.glb"
         }
       ]
     },
     "presets": [
       {
         "title": "The discreet working retreat",
-        "film": "films/r7/quiet-lanterns-1-Gemini-f6ccbe15.mp4",
-        "poster": "previews/r7/quiet-lanterns-1-entrance.png",
+        "film": "films/r10/quiet-lanterns-1-3cd9bf28.mp4",
+        "poster": "previews/r10/quiet-lanterns-1-entrance.png",
         "views": {
           "sofa": {
             "position": [
@@ -942,18 +1303,57 @@
               -14.25
             ],
             "look": [
-              -6.8,
-              1.18,
+              -6.85,
+              2.0,
               -13.31
             ],
             "seated": true
+          },
+          "corridor-reverse": {
+            "position": [
+              0.2,
+              1.65,
+              -14.2
+            ],
+            "look": [
+              -0.1,
+              1.5,
+              -4.5
+            ],
+            "seated": false
+          },
+          "fireplace": {
+            "position": [
+              -3.15,
+              1.18,
+              -13.05
+            ],
+            "look": [
+              -6.84,
+              1.88,
+              -13.31
+            ],
+            "seated": true
+          },
+          "rear-door": {
+            "position": [
+              -4.4,
+              1.45,
+              -12.9
+            ],
+            "look": [
+              -4.4,
+              1.2,
+              -17.2
+            ],
+            "seated": false
           }
         }
       },
       {
         "title": "The house at tea time",
-        "film": "films/r7/quiet-lanterns-2-Gemini-6ee4bcc0.mp4",
-        "poster": "previews/r7/quiet-lanterns-2-entrance.png",
+        "film": "films/r10/quiet-lanterns-2-f30e5fe1.mp4",
+        "poster": "previews/r10/quiet-lanterns-2-entrance.png",
         "views": {
           "sofa": {
             "position": [
@@ -975,18 +1375,57 @@
               -14.149999618530273
             ],
             "look": [
-              -6.8,
-              1.18,
+              -6.85,
+              2.0,
               -13.31
             ],
             "seated": true
+          },
+          "corridor-reverse": {
+            "position": [
+              0.2,
+              1.65,
+              -14.2
+            ],
+            "look": [
+              -0.1,
+              1.5,
+              -4.5
+            ],
+            "seated": false
+          },
+          "fireplace": {
+            "position": [
+              -3.15,
+              1.18,
+              -13.05
+            ],
+            "look": [
+              -6.84,
+              1.88,
+              -13.31
+            ],
+            "seated": true
+          },
+          "rear-door": {
+            "position": [
+              -4.4,
+              1.45,
+              -12.9
+            ],
+            "look": [
+              -4.4,
+              1.2,
+              -17.2
+            ],
+            "seated": false
           }
         }
       },
       {
         "title": "A place to write and withdraw",
-        "film": "films/r7/quiet-lanterns-3-Gemini-7b38c495.mp4",
-        "poster": "previews/r7/quiet-lanterns-3-entrance.png",
+        "film": "films/r10/quiet-lanterns-3-b9da1a51.mp4",
+        "poster": "previews/r10/quiet-lanterns-3-entrance.png",
         "views": {
           "sofa": {
             "position": [
@@ -1008,11 +1447,50 @@
               -14.25
             ],
             "look": [
-              -6.8,
-              1.18,
+              -6.85,
+              2.0,
               -13.31
             ],
             "seated": true
+          },
+          "corridor-reverse": {
+            "position": [
+              0.2,
+              1.65,
+              -14.2
+            ],
+            "look": [
+              -0.1,
+              1.5,
+              -4.5
+            ],
+            "seated": false
+          },
+          "fireplace": {
+            "position": [
+              -3.15,
+              1.18,
+              -13.05
+            ],
+            "look": [
+              -6.84,
+              1.88,
+              -13.31
+            ],
+            "seated": true
+          },
+          "rear-door": {
+            "position": [
+              -4.4,
+              1.45,
+              -12.9
+            ],
+            "look": [
+              -4.4,
+              1.2,
+              -17.2
+            ],
+            "seated": false
           }
         }
       }
@@ -1103,6 +1581,8 @@
         ]
       }
     },
-    "gallery": "Revisions.html"
+    "gallery": "Revisions.html",
+    "film": "films/r10/quiet-lanterns-1-3cd9bf28.mp4",
+    "poster": "previews/r10/quiet-lanterns-1-entrance.png"
   }
 ]
